@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/iber_monument
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>iber</Civ>
+    <SelectionGroupName>units/iber_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Scutarii</GenericName>
+    <SpecificName>Ezkutari</SpecificName>
+    <Icon>units/iber_infantry_spearman.png</Icon>
+    <History>
+        If the Caetrati operated as the Iberians' all-purpose light infantry, then the Scutarii (sing. Scutarius) operated as all-purpose medium infantry. The Scutarii were the older and more experienced Iberian warriors, forming the professional core of many Iberian armies. Like their lighter cousins, the Scutarii were famed for their versatility and the Iberian spirit. Their name is derived for the Latin term 'scutum', the Roman name for the large oval shields carried by the Scutarii which they used in much the same manner as Roman infantry. 
+    </History>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/iber_infantry_spearman_a</Entity>
+  </Promotion>
+  <UnitMotion>
+    <WalkSpeed>8.0</WalkSpeed>
+    <Run>
+      <Speed>24.0</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/iber_monument
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>iber</Civ>
+    <SelectionGroupName>units/iber_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Caetratus</GenericName>
+    <SpecificName>Ezpatari</SpecificName>
+    <Icon>units/iber_infantry_swordsman.png</Icon>
+    <History>
+        The Caetrati (sing. Caetratus) were the most numerous and well known of all Iberian soldiers. They were non-professional multi-purpose light infantry that operated far outside the normal bounds for such. Much of the fame of the Caetrati was derived from their skill, ferocity, and resilience in battle. The name of these men comes from the Latin term 'caetra', the Roman name for the small buckler the Caetrati used in conjunction with their falcata sabers.
+        “They have a small shield two feet in diameter, concave in front, and suspended from the shoulder by means of thongs (for it has neither arm-rings nor handles). Besides these shields they have a dirk or a butcher's-knife. Most of them wear linen cuirasses; a few wear chain-wrought cuirasses and helmets with three crests, but the rest wear helmets made of sinews. The foot-soldiers wear greaves also, and each soldier has several javelins; and some also make use of spears, and the spears have bronze heads.” – Estrabon.
+    </History>
+  </Identity>
+  <Promotion>
+    <Entity>units/iber_infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

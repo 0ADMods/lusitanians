@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_slinger">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/iber_monument
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>iber</Civ>
+    <SelectionGroupName>units/iber_infantry_slinger_b</SelectionGroupName>
+    <GenericName>Lusitanian Slinger</GenericName>
+    <SpecificName>Habailari</SpecificName>
+    <Icon>units/iber_infantry_slinger.png</Icon>
+    <History>
+        The Iberian Peninsula is literally littered with stone, ceramic, and leaden sling bolts at archeological sites, so evidence suggests that slingers were a common enough unit that they are tribal generic. While it is a popular notion that Balearic Slingers, possibly the best in the ancient world, were 'Hispanic' because the islands now belong to modern day Spain, they are a Carthaginian unit relative to the times. Iberian slingers carry 3 slings like those of the Balearic. Slings were among the most widespread ranged weaponry on the Peninsula, second only to the Iberian javelin.
+    </History>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/iber_infantry_slinger_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/iberians/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>
