@@ -1,0 +1,9 @@
+{
+	"name": "lusitanians",
+	"label": "Lusitanians 0 A.D. Iron Age Extension.",
+	"url": "http://wildfiregames.com/forum/?showtopic=18576",
+	"description": "Adds the Iron Age Lusitanian faction to the Iberian civilization to 0A.D.",
+	"dependencies": ["0ad"],
+	"total_size": 100000,
+	"type": "content.civilization"
+}
