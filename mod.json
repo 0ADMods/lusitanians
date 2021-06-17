@@ -1,0 +1,8 @@
+{
+	"name": "Lusitanos",
+	"version": "0.0.03",
+	"label": "0 A.D. lusitanos",
+	"url": "",
+	"description": "lusitanos.",
+	"dependencies": ["0ad=0.0.25"]
+}

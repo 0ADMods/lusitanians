@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Zabal Horma</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/lusi/wall_tower</Tower>
+      <Gate>structures/lusi/wall_gate</Gate>
+      <WallLong>structures/lusi/wall_long</WallLong>
+      <WallMedium>structures/lusi/wall_medium</WallMedium>
+      <WallShort>structures/lusi/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.20</MinTowerOverlap>
+  </WallSet>
+</Entity>
