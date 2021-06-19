@@ -12,6 +12,6 @@
     </Tower>
   </Upgrade>
   <VisualActor>
-    <Actor>structures/iberians/wooden_tower.xml</Actor>
+    <Actor>structures/lusitanians/tower.xml</Actor>
   </VisualActor>
 </Entity>

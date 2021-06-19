@@ -16,11 +16,10 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/ship_fire
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/iberians/dock.xml</Actor>
+    <Actor>structures/lusitanians/factora_cart.xml</Actor>
     <FoundationActor>structures/fndn_dock_iber.xml</FoundationActor>
   </VisualActor>
 </Entity>

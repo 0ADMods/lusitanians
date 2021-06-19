@@ -15,7 +15,7 @@
     <Static width="16.0" depth="20.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/iberians/market.xml</Actor>
+    <Actor>structures/lusitanians/market.xml</Actor>
     <FoundationActor>structures/fndn_5x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

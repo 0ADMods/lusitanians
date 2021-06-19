@@ -6,10 +6,9 @@
   </Identity>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      attack_steel_working
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/iberians/blacksmith.xml</Actor>
+    <Actor>structures/lusitanians/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>
