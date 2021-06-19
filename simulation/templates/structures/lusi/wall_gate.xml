@@ -4,9 +4,6 @@
     <Square width="37.0" depth="8.0"/>
     <Height>12.7</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>8</Max>
-  </GarrisonHolder>
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Biko Sarbide</SpecificName>
@@ -66,6 +63,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/iberians/wall_gate.xml</Actor>
+    <Actor>structures/lusitanians/wall_gate.xml</Actor>
   </VisualActor>
 </Entity>

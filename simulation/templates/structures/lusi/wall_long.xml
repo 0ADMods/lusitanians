@@ -59,6 +59,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/iberians/wall_long.xml</Actor>
+    <Actor>structures/lusitanians/wall_long.xml</Actor>
   </VisualActor>
 </Entity>

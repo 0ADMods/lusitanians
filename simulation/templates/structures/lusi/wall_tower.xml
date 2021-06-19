@@ -15,7 +15,7 @@
     <HeightOffset>14</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/iberians/wall_tower.xml</Actor>
+    <Actor>structures/lusitanians/wall_tower.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>10</Length>

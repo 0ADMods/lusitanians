@@ -121,10 +121,9 @@
 		"special/formations/wedge"
 	],
 	"AINames": [
-		"Viriato",
-		"Viriato",
-		"Karos",
-		"Apimarus"
+		"Cauceno",
+		"Césaro",
+		"Táutalo"
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_melee_b": "units/lusi/infantry_swordsman_b",

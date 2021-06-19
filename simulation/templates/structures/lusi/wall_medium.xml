@@ -39,6 +39,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/iberians/wall_medium.xml</Actor>
+    <Actor>structures/lusitanians/wall_medium.xml</Actor>
   </VisualActor>
 </Entity>

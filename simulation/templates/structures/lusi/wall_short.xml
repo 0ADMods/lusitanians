@@ -15,6 +15,6 @@
     <HeightOffset>11</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/iberians/wall_short.xml</Actor>
+    <Actor>structures/lusitanians/wall_short.xml</Actor>
   </VisualActor>
 </Entity>

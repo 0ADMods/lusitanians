@@ -8,9 +8,20 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Emazteki</SpecificName>
-    <GenericName>lusi Woman</GenericName>
+    <GenericName>lusitanian Woman</GenericName>
     <Icon>units/iber_support_female_citizen.png</Icon>
   </Identity>
+    <Upgrade>
+     <SwitchToSword>
+      <Entity>units/lusi/infantry_swordswoman</Entity>
+      <Tooltip>Switch weapon sword (melee).</Tooltip>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Cost>
+        <metal>5</metal>
+      </Cost>
+      <Time>5</Time>
+    </SwitchToSword>
+  </Upgrade>
   <VisualActor>
     <Actor>units/iberians/female_citizen.xml</Actor>
   </VisualActor>
