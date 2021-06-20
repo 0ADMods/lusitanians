@@ -19,3 +19,6 @@ There is only one download option for every version, because the same mod can wo
 
 ## Contributing
 -Duileoga.
+-Lopess
+-Yekaterina
+-Solooy0
