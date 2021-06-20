@@ -9,6 +9,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/lusitanians/blacksmith.xml</Actor>
+    <Actor>structures/lusitanians/forge.xml</Actor>
   </VisualActor>
 </Entity>
