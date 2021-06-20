@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
-  <Cost>
-    <BuildTime>40</BuildTime>
-  </Cost>
+<Entity parent="mercenary|template_unit_ship_trireme">
   <Footprint>
-    <Square width="12.0" depth="36.0"/>
+    <Square width="9.0" depth="42.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>40</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max op="add">200</Max>
-  </Health>
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Ponti</SpecificName>
-    <Tooltip>Transport many soldiers across the sea.</Tooltip>
-    <Icon>units/celt_ship_trireme.png</Icon>
+    <GenericName>Phoenician Trireme</GenericName>
+    <SpecificName>Tlat-Mašōt</SpecificName>
+    <Icon>units/pers_ship_trireme.png</Icon>
   </Identity>
-  <UnitMotion>
-    <WalkSpeed op="mul">0.9</WalkSpeed>
-  </UnitMotion>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+    </Entities>
+    <TechCostMultiplier>
+      <food>1.0</food>
+      <wood>1.0</wood>
+      <stone>1.0</stone>
+      <metal>1.0</metal>
+      <time>1.0</time>
+    </TechCostMultiplier>
+  </ProductionQueue>
   <VisualActor>
-    <Actor>structures/iberians/warship.xml</Actor>
+    <Actor>structures/persians/trireme.xml</Actor>
   </VisualActor>
 </Entity>
