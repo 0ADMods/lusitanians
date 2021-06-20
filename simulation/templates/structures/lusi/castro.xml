@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_castro">
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Castro Lusitano</SpecificName>
+    <SelectionGroupName>structures/lusi/castro</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/iberians/barracks.xml</Actor>
+  </VisualActor>
+</Entity>
