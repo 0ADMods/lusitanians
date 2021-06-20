@@ -11,7 +11,7 @@
     <VisibleClasses datatype="tokens">Lusitaniswordswomen</VisibleClasses>
     <SelectionGroupName>units/lusi/swordswoman</SelectionGroupName>
     <SpecificName>Ezpatari</SpecificName>
-    <Icon>units/iber_infantry_swordsman.png</Icon>
+    <Icon>units/lusi_swordwoman.png</Icon>
   </Identity>
   <Promotion disable=""/>
    <TrainingRestrictions>

@@ -5,12 +5,12 @@
   </Health>
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Oppidum</SpecificName>
+    <SpecificName>Centro Urbano</SpecificName>
   </Identity>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman_b
-      units/{civ}/infantry_javelineer_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_slinger_b
       units/{civ}/cavalry_javelineer_b
     </Entities>
   </ProductionQueue>

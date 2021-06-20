@@ -5,9 +5,9 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Ezkutari</SpecificName>
+    <SpecificName>Scortamareva</SpecificName>
     <Icon>units/iber_infantry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/lusi/infantry_spearman_a</Entity>
