@@ -4,7 +4,8 @@
     <Entities datatype="tokens">
       structures/lusi/castro
       structures/lusi/merc_camp
-      </Entities>
+      structures/lusi/dock_merc
+    </Entities>
   </Builder>
   <Identity>
     <Civ>lusi</Civ>

@@ -10,31 +10,17 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Kai</SpecificName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="24.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/ship_fishing
-      units/{civ}/ship_merchant
-      -units/{civ}/ship_bireme
-      -units/{civ}/ship_trireme
-      -units/{civ}/ship_quinquereme
-      -units/{civ}/ship_fire
     </Entities>
-    <Technologies datatype="tokens">
-      fishing_boat_gather_rate
-      fishing_boat_gather_capacity
-      -ship_cost_time
-      -ship_health
-      -ship_movement_speed
-      -equine_transports
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/lusitanians/dock.xml</Actor>
+    <Actor>structures/lusitanians/factora_cart.xml</Actor>
     <FoundationActor>structures/fndn_dock_iber.xml</FoundationActor>
   </VisualActor>
 </Entity>

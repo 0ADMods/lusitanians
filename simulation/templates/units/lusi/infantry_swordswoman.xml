@@ -2,9 +2,12 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Builder>
     <Entities datatype="tokens">
-      
+      structures/lusi/castro
+      structures/lusi/merc_camp
+      structures/lusi/dock_merc
     </Entities>
   </Builder>
+
   <Identity>
     <Civ>lusi</Civ>
     <Phenotype>female</Phenotype>
