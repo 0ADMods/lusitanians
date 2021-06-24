@@ -4,7 +4,7 @@
     <Civ>lusi</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/iberians/stable.xml</Actor>
+    <Actor>structures/lusitanians/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x5.xml</FoundationActor>
   </VisualActor>
 </Entity>
