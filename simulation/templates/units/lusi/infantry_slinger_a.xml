@@ -7,6 +7,6 @@
     <Entity>units/lusi/infantry_slinger_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/infantry_slinger_a.xml</Actor>
+    <Actor>units/lusitanians/infantry_slinger_a.xml</Actor>
   </VisualActor>
 </Entity>

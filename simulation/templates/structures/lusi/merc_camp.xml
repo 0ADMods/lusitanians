@@ -38,7 +38,6 @@
   </TerritoryDecay>
   <TerritoryInfluence disable=""/>
   <VisualActor>
-    <Actor>structures/mercenaries/camp_blemmye.xml</Actor>
-    <FoundationActor>structures/fndn_8x7.xml</FoundationActor>
+    <Actor>structures/lusitanians/lusi_castro_veton.xml</Actor>
   </VisualActor>
 </Entity>

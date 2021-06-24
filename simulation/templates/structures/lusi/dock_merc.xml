@@ -11,6 +11,7 @@
     <Civ>lusi</Civ>
     <SpecificName>Kai</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>structures/dock_merc.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="14.0" depth="24.0"/>

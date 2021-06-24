@@ -4,8 +4,9 @@
     <Civ>lusi</Civ>
     <SpecificName>Castro Lusitano</SpecificName>
     <SelectionGroupName>structures/lusi/castro</SelectionGroupName>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <VisualActor>
-    <Actor>structures/iberians/barracks.xml</Actor>
+    <Actor>structures/lusitanians/lusi_castro_veton.xml</Actor>
   </VisualActor>
 </Entity>
