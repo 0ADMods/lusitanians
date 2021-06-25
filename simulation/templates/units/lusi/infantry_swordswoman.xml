@@ -4,6 +4,7 @@
     <Entities datatype="tokens">
       structures/lusi/castro
       structures/lusi/merc_camp
+      structures/lusi/sauna
       structures/lusi/dock_merc
     </Entities>
   </Builder>
