@@ -14,7 +14,7 @@
     <Phenotype>female</Phenotype>
     <VisibleClasses datatype="tokens">Lusitaniswordswomen</VisibleClasses>
     <SelectionGroupName>units/lusi/swordswoman</SelectionGroupName>
-    <SpecificName>Ezpatari</SpecificName>
+    <SpecificName>Petanim Cori</SpecificName>
     <Icon>units/lusi_swordwoman.png</Icon>
   </Identity>
   <Promotion disable=""/>

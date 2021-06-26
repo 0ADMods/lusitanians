@@ -2,7 +2,7 @@
 <Entity parent="template_structure_economic_storehouse">
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Ola</SpecificName>
+    <SpecificName>Trebo</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/storehouse.xml</Actor>

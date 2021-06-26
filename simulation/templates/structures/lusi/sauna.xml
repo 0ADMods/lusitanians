@@ -24,7 +24,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <GenericName>Sauna</GenericName>
-    <SpecificName></SpecificName>
+    <SpecificName>Bormano</SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Town Sauna</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>

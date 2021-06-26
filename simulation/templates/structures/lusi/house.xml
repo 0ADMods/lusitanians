@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Etxe</SpecificName>
+    <SpecificName>Treb</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/house.xml</Actor>

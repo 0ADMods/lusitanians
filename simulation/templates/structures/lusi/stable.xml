@@ -2,6 +2,7 @@
 <Entity parent="template_structure_military_stable">
   <Identity>
     <Civ>lusi</Civ>
+     <SpecificName>Trebocumelios</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/stable.xml</Actor>

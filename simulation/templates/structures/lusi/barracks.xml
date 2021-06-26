@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Kaserna</SpecificName>
+    <SpecificName>Trebom coriam</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/lusitanians/barracks.xml</Actor>
