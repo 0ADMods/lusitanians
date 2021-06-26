@@ -8,7 +8,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <GenericName>Veton Mercenary Cavalry</GenericName>
-    <SpecificName>Sword Cavalry</SpecificName>
+    <SpecificName>Epones Secias</SpecificName>
     <SelectionGroupName>units/lusi/cavalry_swordsman_merc_b</SelectionGroupName>
     <Icon>units/cart_cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

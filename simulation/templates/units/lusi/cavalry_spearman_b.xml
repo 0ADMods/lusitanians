@@ -3,7 +3,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/cavalry_spearman_b</SelectionGroupName>
-    <SpecificName>Lantzari</SpecificName>
+    <SpecificName>Epones Pretre</SpecificName>
     <Icon>units/iber_cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

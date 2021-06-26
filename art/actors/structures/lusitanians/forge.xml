@@ -6,6 +6,8 @@
       <mesh>structural/lusi_forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+       <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_1"/> 
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_2"/>
       </props>
       <textures>
         <texture file="structural/lusi_struct.png" name="baseTex"/>

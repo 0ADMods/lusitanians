@@ -8,6 +8,8 @@
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_1"/>
+        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire_1"/>
       </props>
       <textures>
         <texture file="structural/lusi_struct.png" name="baseTex"/>

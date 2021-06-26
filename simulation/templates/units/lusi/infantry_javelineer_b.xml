@@ -11,7 +11,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_javelinist_b</SelectionGroupName>
-    <SpecificName>Lusitano Ezpatari</SpecificName>
+    <SpecificName>Iovanan</SpecificName>
     <Icon>units/iber_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>

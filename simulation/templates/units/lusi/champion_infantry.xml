@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Ambakaro</SpecificName>
+    <SpecificName>Arimo</SpecificName>
     <GenericName>Noble Infantry</GenericName>
     <Icon>units/iber_champion_infantry.png</Icon>
     <SelectionGroupName>units/lusi/champion_infantry</SelectionGroupName>
