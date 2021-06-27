@@ -21,6 +21,17 @@
    <TrainingRestrictions>
     <Category>Lusitaniswordswomen</Category>
   </TrainingRestrictions>
+   <Upgrade>
+     <SwitchToSword>
+      <Entity>units/lusi/support_female_citizen</Entity>
+      <Tooltip>Switch back to female citizens</Tooltip>
+      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Cost>
+        <food>10</food>
+      </Cost>
+      <Time>5</Time>
+    </SwitchToSword>
+  </Upgrade>
   <VisualActor>
     <Actor>units/lusitanians/infantry_swordswoman.xml</Actor>
   </VisualActor>
