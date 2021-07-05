@@ -5,8 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_iber_adv.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/celt_helmet_montefortino_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

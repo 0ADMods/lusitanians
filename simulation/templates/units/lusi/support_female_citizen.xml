@@ -8,7 +8,6 @@
       structures/lusi/sauna
     </Entities>
   </Builder>
-
     <Attack>
     <Melee>
       <Damage>
@@ -18,7 +17,6 @@
   </Attack>
   <Builder>
     <Entities datatype="tokens">
-
     </Entities>
   </Builder>
   <Identity>
