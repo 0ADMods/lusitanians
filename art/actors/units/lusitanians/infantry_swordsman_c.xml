@@ -4,7 +4,7 @@
   <group>
     <variant>
       <props>
-        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/iber_round_su1.xml" attachpoint="shield"/>
         <prop actor="props/units/helmets/iber_helmet_c.xml" attachpoint="helmet"/>

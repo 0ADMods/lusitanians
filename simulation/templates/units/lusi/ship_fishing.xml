@@ -10,6 +10,6 @@
     <Icon>units/iber_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/iberians/fishing_ship.xml</Actor>
+    <Actor>structures/lusitanians/fishing_boat.xml</Actor>
   </VisualActor>
 </Entity>

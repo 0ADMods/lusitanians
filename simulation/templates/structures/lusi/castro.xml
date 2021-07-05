@@ -4,9 +4,18 @@
     <Civ>lusi</Civ>
     <SpecificName>Brigasecias</SpecificName>
     <SelectionGroupName>structures/lusi/castro</SelectionGroupName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
+    <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry
+      units/{civ}/champion_cavalry
+      units/{civ}/hero_apimano
+      units/{civ}/hero_kaisaros
+      units/{civ}/hero_viriato   
+    </Entities>
+  </ProductionQueue>
   <VisualActor>
-    <Actor>structures/lusitanians/lusi_castro_veton.xml</Actor>
+    <Actor>structures/lusitanians/citania.xml</Actor>
   </VisualActor>
 </Entity>
