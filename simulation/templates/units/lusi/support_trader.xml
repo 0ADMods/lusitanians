@@ -10,6 +10,6 @@
     <Icon>units/iber_support_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/trader.xml</Actor>
+    <Actor>units/lusitanians/trader.xml</Actor>
   </VisualActor>
 </Entity>
