@@ -11,14 +11,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-slinger-1a">
+    <variant frequency="1" name="tunic-sleeveless-slinger-1a">
       <textures>
-        <texture file="skeletal/iber_tunic_slinger_1_a.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_cav_javalineer_b_1.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-slinger-1b">
+    <variant frequency="1" name="tunic-sleeveless-slinger-1b">
       <textures>
-        <texture file="skeletal/iber_tunic_slinger_1_b.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_cav_javalineer_b_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-sleeveless-slinger-1c">
+      <textures>
+        <texture file="skeletal/units/lusi_cav_javalineer_b_3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

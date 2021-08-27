@@ -6,6 +6,7 @@
       <mesh>structural/lusi_wonder.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="structures/lusitanians/wonder_water.xml" attachpoint="root"/>
         <prop actor="flora/trees/oak_holly.xml" attachpoint="tree_1"/>
         <prop actor="flora/trees/oak_holly.xml" attachpoint="tree_2"/>
         <prop actor="flora/trees/oak_holly.xml" attachpoint="tree_3"/>
