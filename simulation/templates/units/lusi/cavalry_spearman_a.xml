@@ -7,6 +7,6 @@
     <Entity>units/lusi/cavalry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/cavalry_spearman_a_m.xml</Actor>
+    <Actor>units/lusitanians/cavalry_spearman_a_m.xml</Actor>
   </VisualActor>
 </Entity>

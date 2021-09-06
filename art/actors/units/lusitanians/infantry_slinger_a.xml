@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-  <group>
+    <group>
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
@@ -10,14 +10,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-slinger-1a">
+    <variant frequency="1" name="tunic-sleeveless-slinger-1a">
       <textures>
-        <texture file="skeletal/iber_tunic_slinger_1_a.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_sling_a_1.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-slinger-1b">
+    <variant frequency="1" name="tunic-sleeveless-slinger-1b">
       <textures>
-        <texture file="skeletal/iber_tunic_slinger_1_b.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_sling_a_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-sleeveless-slinger-1c">
+      <textures>
+        <texture file="skeletal/units/lusi_sling_a_3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -12,17 +12,17 @@
   <group>
     <variant frequency="1" name="tunic-sleeveless-slinger-1a">
       <textures>
-        <texture file="skeletal/units/lusi_fun_1.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_sling_b_1.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-sleeveless-slinger-1b">
       <textures>
-        <texture file="skeletal/units/lusi_fun_2.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_sling_b_2.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-sleeveless-slinger-1c">
       <textures>
-        <texture file="skeletal/units/lusi_fun_3.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_sling_b_3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
