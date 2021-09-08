@@ -21,9 +21,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/hero_kaisaros
-      units/{civ}/hero_apimano
-      units/{civ}/hero_viriato
     </Entities>
   </ProductionQueue>
   <VisualActor>

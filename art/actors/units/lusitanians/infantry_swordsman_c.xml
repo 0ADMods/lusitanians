@@ -8,6 +8,7 @@
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/iber_round_su1.xml" attachpoint="shield"/>
         <prop actor="props/units/helmets/iber_helmet_c.xml" attachpoint="helmet"/>
+        <prop actor="props/units/capes/cape_long_lusi.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/sheath_falcata_e.xml" attachpoint="sheath_01_L"/>
       </props>
     </variant>
@@ -16,18 +17,18 @@
     <variant frequency="1" name="armour-pectoral-1">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/units/lusi_champion_r.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_nob_1_c.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="armour-pectoral-2">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/iber_su_inf_2.dds" name="baseTex"/>
+        <texture file="skeletal/units/lusi_nob_2_c.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_ready.xml"/>
+    <variant file="biped/base_swordsman_shield_ready.xml" name="Swordsman-Shield-Ready"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/death_infantry.xml"/>

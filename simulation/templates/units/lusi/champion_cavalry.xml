@@ -15,6 +15,6 @@
     <Icon>units/iber_champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/cavalry_javelinist_c_m.xml</Actor>
+    <Actor>units/lusitanians/cavalry_javelinist_c_m.xml</Actor>
   </VisualActor>
 </Entity>

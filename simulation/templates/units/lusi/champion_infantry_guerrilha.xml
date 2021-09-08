@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Arimo</SpecificName>
+    <GenericName>Javelinist guerrilha</GenericName>
+    <Icon>units/iber_champion_infantry.png</Icon>
+    <SelectionGroupName>units/lusi/champion_guerrilha</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lusitanians/infantry_champion_javelinist.xml</Actor>
+  </VisualActor>
+</Entity>

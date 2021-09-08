@@ -8,6 +8,6 @@
     <SelectionGroupName>units/lusi/champion_infantry</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/infantry_swordsman_c.xml</Actor>
+    <Actor>units/lusitanians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

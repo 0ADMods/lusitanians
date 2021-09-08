@@ -10,6 +10,8 @@
     <Entities datatype="tokens">
       units/{civ}/champion_infantry
       units/{civ}/champion_cavalry
+      units/{civ}/champion_cavalry_bandoleiro
+      units/{civ}/champion_infantry_guerrilha
       units/{civ}/hero_apimano
       units/{civ}/hero_kaisaros
       units/{civ}/hero_viriato   
