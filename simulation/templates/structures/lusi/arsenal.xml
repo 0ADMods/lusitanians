@@ -3,6 +3,13 @@
   <Identity>
     <Civ>lusi</Civ>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      -siege_pack_unpack
+      -siege_bolt_accuracy
+    </Technologies>
+  </ProductionQueue>
   <VisualActor>
     <Actor>structures/iberians/workshop.xml</Actor>
   </VisualActor>

@@ -14,7 +14,7 @@
     <SelectionGroupName>units/lusi/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Scortamareva</SpecificName>
     <Icon>units/iber_infantry_spearman.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/lusi/infantry_spearman_a</Entity>

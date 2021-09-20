@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_dock">
+    <Cost>
+    <Resources>
+      <wood>200</wood>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
   <Footprint>
-    <Square width="16.0" depth="26.0"/>
+    <Square width="19.0" depth="29.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
@@ -14,7 +21,7 @@
     <Icon>structures/dock_merc.png</Icon>
   </Identity>
   <Obstruction>
-    <Static width="14.0" depth="24.0"/>
+    <Static width="18.0" depth="27.0"/>
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
