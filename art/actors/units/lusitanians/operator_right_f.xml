@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/trunk_operator_right.xml" frequency="1" name="relax">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tunic-rf-1a">
+      <textures>
+        <texture file="skeletal/units/lusi_siege_w_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-rf-1b">
+      <textures>
+        <texture file="skeletal/units/lusi_siege_w_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic-rf-1c">
+      <textures>
+        <texture file="skeletal/units/lusi_siege_w_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

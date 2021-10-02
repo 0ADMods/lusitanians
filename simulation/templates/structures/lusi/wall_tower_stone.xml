@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
+  <Auras datatype="tokens">
+    pedras_fincadas
+    pedras_fincadas_2
+  </Auras>
   <Footprint replace="">
     <Circle radius="6"/>
     <Height>13</Height>
@@ -9,7 +13,7 @@
     <SpecificName>Dorre</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="10" depth="10"/>
+   <Static width="2" depth="2"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>14</HeightOffset>

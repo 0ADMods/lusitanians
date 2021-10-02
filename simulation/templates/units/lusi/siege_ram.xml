@@ -10,6 +10,6 @@
     <Icon>units/iber_siege_ram.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/iberians/siege_ram.xml</Actor>
+    <Actor>structures/lusitanians/siege_ram_pivot.xml</Actor>
   </VisualActor>
 </Entity>
