@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_swordsman">
+<Entity parent="template_unit_hero_cavalry_spearman">
   <Auras datatype="tokens">
-    units/heroes/iber_hero_caros_1
-    units/heroes/iber_hero_caros_2
+    units/heroes/lusi_hero_kaikainos_1
+    units/heroes/lusi_hero_kaikainos_2
   </Auras>
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Kaisaros</SpecificName>
+    <SpecificName>Kaikanos</SpecificName>
     <Icon>units/iber_hero_caros.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/iberians/hero_infantry_swordsman_caros.xml</Actor>
+    <Actor>units/lusitanians/hero_cavalry_spearman_kaikanos_h.xml</Actor>
   </VisualActor>
 </Entity>

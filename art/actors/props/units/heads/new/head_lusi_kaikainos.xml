@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="mesh">
+      <mesh>props/new/head_beard_longhair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="face-1">
+      <textures><texture file="props/head/celt_c.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="hair-brown">
+      <color>99 82 53</color>
+    </variant>
+  </group>
+  <material>objectcolor.xml</material>
+</actor>

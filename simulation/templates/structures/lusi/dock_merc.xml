@@ -17,6 +17,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Kai</SpecificName>
+    <VisibleClasses datatype="tokens">Merc_Dock</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/dock_merc.png</Icon>
   </Identity>

@@ -48,14 +48,6 @@
       </textures>
     </variant>
   </group>
-    <variant frequency="3" name="rome-chainmail-4a">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
-      <textures>
-        <texture file="skeletal/rome_chainmail_4_a.png" name="baseTex"/>
-        <texture file="skeletal/celt_chainmail_2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-  </group>
   <group>
     <variant file="biped/base_spearman_shield_relax_celt.xml"/>
     <variant file="biped/carry_food.xml"/>

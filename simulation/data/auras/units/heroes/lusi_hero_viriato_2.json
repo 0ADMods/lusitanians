@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Corral"],
+	"modifications": [
+		{ "value": "Cost/Resources/food", "multiply": 0.65 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.65 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.65 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.65 }
+	],
+	"auraName": "Corral bonus",
+	"auraDescription": "Corral −35% resource costs."
+}

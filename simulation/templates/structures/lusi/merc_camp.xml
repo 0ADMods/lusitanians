@@ -18,7 +18,7 @@
     <Civ>lusi</Civ>
     <GenericName>Castro Veton</GenericName>
     <Tooltip>Trains Veton Auxiliaries</Tooltip>
-    <Classes datatype="tokens">CivSpecific</Classes>
+    <Classes datatype="tokens">CivSpecific CampVeton</Classes>
     <Icon>structures/mercenary_camp.png</Icon>
   </Identity>
   <Loot>
