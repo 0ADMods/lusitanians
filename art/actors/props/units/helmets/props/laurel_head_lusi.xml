@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="laurel-01">
+      <mesh>props/helmet/props/laurel_head_lusi.dae</mesh>
+      <textures>
+        <texture file="props/helmet/laurel_lusi.png" name="baseTex"/>
+        <texture file="props/helmet/laurel_lusi_norm.png" name="normTex"/>
+        <texture file="props/helmet/laurel_lusi_spec.png" name="specTex"/>
+      </textures>
+    </variant>  
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

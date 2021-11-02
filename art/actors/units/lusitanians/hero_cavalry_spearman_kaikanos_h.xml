@@ -8,8 +8,7 @@
         <prop actor="units/lusitanians/hero_cavalry_spearman_kaikanos_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/chest_colorband_02.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_blanket_iber_basic.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_armor_iber.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_lusi.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
