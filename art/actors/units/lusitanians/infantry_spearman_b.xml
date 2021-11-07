@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/props/hele_boeotian_hair.xml" attachpoint="helmet"/>  
-        <prop actor="props/units/shields/iberian_buckler_elite.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>

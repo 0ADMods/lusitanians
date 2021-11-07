@@ -13,11 +13,29 @@
   </group>
 
   <group>
-    <variant frequency="1" name="shield-H">
-      <textures><texture file="props/shield/iber_round_h.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="shield-a">
+      <textures><texture file="props/shield/shild_elite_1.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="shield-K">
-      <textures><texture file="props/shield/iber_round_k.dds" name="baseTex"/></textures>
+    <variant frequency="1" name="shield-b">
+      <textures><texture file="props/shield/shild_elite_2.png" name="baseTex"/></textures>
+    </variant>
+        <variant frequency="1" name="shield-c">
+      <textures><texture file="props/shield/shild_elite_3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-d">
+      <textures><texture file="props/shield/shild_elite_4.png" name="baseTex"/></textures>
+    </variant>
+        <variant frequency="1" name="shield-e">
+      <textures><texture file="props/shield/shild_elite_5.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-f">
+      <textures><texture file="props/shield/shild_elite_6.png" name="baseTex"/></textures>
+    </variant>
+            <variant frequency="1" name="shield-f">
+      <textures><texture file="props/shield/shild_elite_7.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-g">
+      <textures><texture file="props/shield/shild_elite_8.png" name="baseTex"/></textures>
     </variant>
   </group>
 

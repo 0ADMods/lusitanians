@@ -11,6 +11,6 @@
     <Entity>units/lusi/support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/iberians/healer.xml</Actor>
+    <Actor>units/lusitanians/healer_f.xml</Actor>
   </VisualActor>
 </Entity>

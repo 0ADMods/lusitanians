@@ -14,12 +14,7 @@
     <group>
     <variant frequency="1" name="Helmet_1">
       <props>
-        <prop actor="props/units/helmets/iber_helmet_b.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet_3">
-      <props>
-        <prop actor="props/units/helmets/iber_helmet_a.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/lusi_iber_helmet_c.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

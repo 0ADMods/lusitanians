@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <group>
+<variant frequency="1" name="base">
+  <mesh>props/horse/blanket.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1a">
+      <textures>
+        <texture file="props/horse/blanket_lusi_elite_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="2a">
+      <textures>
+        <texture file="props/horse/blanket_lusi_elite_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="3a">
+      <textures>
+        <texture file="props/horse/blanket_lusi_elite_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="4a">
+      <textures>
+        <texture file="props/horse/blanket_lusi_elite_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="5a">
+      <textures>
+        <texture file="props/horse/blanket_lusi_elite_5.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="6a">
+      <textures>
+        <texture file="props/horse/blanket_lusi_elite_6.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+</variant>

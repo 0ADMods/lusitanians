@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/capes/rider/cape_long_player_viriato.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_lusi_viriato.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/lusi_chalcidean_hero_02.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/lusitanians_buckler_elite.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/gladius.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
         <prop actor="props/units/shields/iber_round_viriato.xml" attachpoint="shield"/>

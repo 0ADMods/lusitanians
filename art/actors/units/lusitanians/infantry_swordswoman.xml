@@ -3,10 +3,10 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_pers_fem_1.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/iberian_buckler_basic.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/sheath_falcata_e.xml" attachpoint="sheath_01_L"/>
       </props>
@@ -15,7 +15,25 @@
   <group>
     <variant frequency="1" name="tunic-1a">
       <textures>
-        <texture file="skeletal/units/lusi_female_warrior.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_swordswoman_1.png" name="baseTex"/>
+        <texture file="skeletal/spart_female_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="tunic-4a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_4.png" name="baseTex"/>
+        <texture file="skeletal/spart_female_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="tunic-2a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_2.png" name="baseTex"/>
+        <texture file="skeletal/spart_female_1_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="tunic-3a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_3.png" name="baseTex"/>
         <texture file="skeletal/spart_female_1_spec.png" name="specTex"/>
       </textures>
     </variant>

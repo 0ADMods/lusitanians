@@ -6,7 +6,7 @@
       <mesh>skeletal/horse_lusitano.dae</mesh>
       <props>
         <prop actor="units/lusitanians/cavalry_swordsman_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/horse/cav_blanket_iber_basic.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_lusi_elite.xml" attachpoint="root"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
       </props>
     </variant>
