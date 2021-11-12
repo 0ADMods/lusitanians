@@ -41,6 +41,6 @@
     <Max>50</Max>
   </Health>
   <VisualActor>
-    <Actor>units/iberians/female_citizen.xml</Actor>
+    <Actor>units/lusitanians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

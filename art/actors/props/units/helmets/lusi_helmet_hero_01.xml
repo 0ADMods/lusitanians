@@ -11,7 +11,7 @@
     <group>
     <variant frequency="1" name="Greave-04">
       <props>
-        <prop actor="props/units/helmets/props/hele_boeotian_hair.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/lusi_helmet_hair.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
