@@ -9,7 +9,7 @@
   <group>
     <variant frequency="1" name="1a">
       <textures>
-        <texture file="props/horse/blanket_lusi_hero_3.png" name="baseTex"/>
+        <texture file="props/horse/blanket_lusi_hero_apimano.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

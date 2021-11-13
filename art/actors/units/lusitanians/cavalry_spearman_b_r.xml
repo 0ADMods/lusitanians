@@ -5,31 +5,30 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_iber_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/kart_csw_round_b.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="tunic-sleeveless-slinger-1a">
       <textures>
-        <texture file="skeletal/units/lusi_cav_swordsman_b_1.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_cav_spearman_b_1.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-sleeveless-slinger-1b">
       <textures>
-        <texture file="skeletal/units/lusi_cav_swordsman_b_2.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_cav_spearman_b_2.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="tunic-sleeveless-slinger-1c">
       <textures>
-        <texture file="skeletal/units/lusi_cav_swordsman_b_3.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_cav_spearman_b_3.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" frequency="1" name="Swordsman-Relax-Shield"/>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

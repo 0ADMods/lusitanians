@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="stable">
-      <mesh>structural/lusi_stable.dae</mesh>
+      <mesh>structural/lusi_stable_new.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
          <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="cav2"/>
@@ -13,7 +13,7 @@
         <texture file="structural/lusi_struct.png" name="baseTex"/>
         <texture file="structural/lusi_struct_spec.png" name="specTex"/>
         <texture file="structural/lusi_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/lusi_stable_ao.png" name="aoTex"/>
+        <texture file="structural/ao/lusi_stable_new_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -6,7 +6,7 @@
       <mesh>props/helmet/iber_helmet_a.dae</mesh>
     </variant>
   </group>
-  <group>
+    <group>
     <variant frequency="1" name="Crest">
       <props>
         <prop actor="props/units/helmets/props/lusi_helmet_hair.xml" attachpoint="root"/>
