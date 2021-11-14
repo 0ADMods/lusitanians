@@ -7,9 +7,6 @@
       <props>
         <prop actor="props/units/heads/new/head_lusi_basic_hair.xml" attachpoint="head"/>
       </props>
-      <textures>
-        <texture file="skeletal/units/lusi_fisher_1.png" name="baseTex"/>
-      </textures>
     </variant>
   </group>
   <group>

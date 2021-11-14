@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant name="Base">
+      <mesh>props/shield/scutum_c_f.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/scutum_back.xml" attachpoint="back"/>
+      </props>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="shield-scutum-b">
+      <textures><texture file="props/shield/verton_oval_a_1.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-scutum-c">
+      <textures><texture file="props/shield/verton_oval_a_2.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-scutum-d">
+      <textures><texture file="props/shield/verton_oval_a_3.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-scutum-e">
+      <textures><texture file="props/shield/verton_oval_a_4.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="shield-scutum-f">
+      <textures><texture file="props/shield/verton_oval_a_5.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+
+  <material>player_trans.xml</material>
+
+</actor>
