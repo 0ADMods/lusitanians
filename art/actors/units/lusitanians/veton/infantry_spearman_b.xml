@@ -3,18 +3,20 @@
   <castshadow/>
   <group>
     <variant frequency="50" name="Base1">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_verton.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/verton_scutum.xml" attachpoint="shield"/> 
+        <prop actor="props/units/helmets/props/hele_boeotian_hair.xml" attachpoint="helmet"/>  
+        <prop actor="props/units/shields/veton_scutum.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
       <variant frequency="50" name="Base2">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_verton_hair.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/verton_scutum.xml" attachpoint="shield"/> 
+        <prop actor="props/units/helmets/props/hele_boeotian_hair.xml" attachpoint="helmet"/>  
+        <prop actor="props/units/shields/veton_scutum.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
@@ -22,7 +24,7 @@
   <group>
     <variant frequency="1" name="tunic-sleeveless-slinger-1a">
       <textures>
-        <texture file="skeletal/units/verton_spearman_a_1.png" name="baseTex"/>
+        <texture file="skeletal/units/verton_spearman_b_1.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

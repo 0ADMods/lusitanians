@@ -30,7 +30,9 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/cavalry_swordsman_merc_a
+      units/{civ}/veton/infantry_spearman_b
+      units/{civ}/veton/infantry_javelineer_b
+      units/{civ}/veton/cavalry_javelineer_b
     </Entities>
   </ProductionQueue>
   <TerritoryDecay>

@@ -14,19 +14,19 @@
 
   <group>
     <variant frequency="1" name="shield-a">
-      <textures><texture file="props/shield/verton_shield_a_1.png" name="baseTex"/></textures>
+      <textures><texture file="props/shield/veton_shield_a_1.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="shield-b">
-      <textures><texture file="props/shield/verton_shield_a_2.png" name="baseTex"/></textures>
+      <textures><texture file="props/shield/veton_shield_a_2.png" name="baseTex"/></textures>
     </variant>
         <variant frequency="1" name="shield-c">
-      <textures><texture file="props/shield/verton_shield_a_3.png" name="baseTex"/></textures>
+      <textures><texture file="props/shield/veton_shield_a_3.png" name="baseTex"/></textures>
     </variant>
     <variant frequency="1" name="shield-d">
-      <textures><texture file="props/shield/verton_shield_a_4.png" name="baseTex"/></textures>
+      <textures><texture file="props/shield/veton_shield_a_4.png" name="baseTex"/></textures>
     </variant>
         <variant frequency="1" name="shield-e">
-      <textures><texture file="props/shield/verton_shield_a_5.png" name="baseTex"/></textures>
+      <textures><texture file="props/shield/veton_shield_a_5.png" name="baseTex"/></textures>
     </variant>
   </group>
 
