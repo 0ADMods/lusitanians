@@ -6,7 +6,7 @@
     <variant frequency="100" name="lusi fishing boat a">
       <mesh>structural/lusi_balsa.dae</mesh>
       <props>
-        <prop actor="units/celts/fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
         <prop actor="" attachpoint="fish_a"/>
         <prop actor="" attachpoint="fish_b"/>
         <prop actor="" attachpoint="fish_c"/>
@@ -22,7 +22,6 @@
     <variant frequency="1" name="run"/>
     <variant frequency="1" name="gather_fish">
       <props>
-        <prop actor="props/structures/celts/fishing_sail_folded.xml" attachpoint="sail"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_a"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_b"/>
         <prop actor="props/fauna/fish_captured.xml" attachpoint="fish_c"/>

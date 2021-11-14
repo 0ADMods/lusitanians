@@ -2,8 +2,11 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="ponytail_2">
+    <variant frequency="1" name="ponytail_2">
       <mesh>props/hair/hair_m_ponytail_lusi_2.dae</mesh>
+    </variant>
+    <variant frequency="1" name="ponytail_1">
+      <mesh>props/hair/hair_m_ponytail_lusi_1.dae</mesh>
     </variant>
   </group>
   <group>

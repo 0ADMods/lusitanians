@@ -5,62 +5,93 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.82.7</authoring_tool>
     </contributor>
-    <created>2021-11-11T23:57:25</created>
-    <modified>2021-11-11T23:57:25</modified>
+    <created>2021-11-14T09:25:25</created>
+    <modified>2021-11-14T09:25:25</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_effects/>
+  <library_effects>
+    <effect id="Material_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
   <library_images/>
+  <library_materials>
+    <material id="Material_001-material" name="Material.001">
+      <instance_effect url="#Material_001-effect"/>
+    </material>
+  </library_materials>
   <library_geometries>
-    <geometry id="hair_m_ponytail_lusi_3-mesh" name="hair_m_ponytail_lusi_3">
+    <geometry id="Cube_006-mesh" name="Cube.006">
       <mesh>
-        <source id="hair_m_ponytail_lusi_3-mesh-positions">
-          <float_array id="hair_m_ponytail_lusi_3-mesh-positions-array" count="33">-7.6938e-4 0.1013419 0.3383102 -0.002851605 0.434217 0.3711336 0.06522613 0.3171055 0.3387919 0.02725905 0.3691405 0.01183277 -0.03029483 0.3751378 0.004850447 -0.04968929 0.3498098 0.3040536 -0.002935767 0.4612282 -0.02511131 -0.00285089 0.4110257 -0.1748073 -0.07004112 0.3003398 0.3559864 0.04552859 0.3580262 0.2966042 -0.003329873 0.2904288 0.4544708</float_array>
+        <source id="Cube_006-mesh-positions">
+          <float_array id="Cube_006-mesh-positions-array" count="54">-0.004183292 -0.02241253 0.4649937 -0.008390843 0.4949212 0.1835756 -0.007254779 0.5183278 -0.06743097 -0.04978501 0.2065654 0.5122588 -0.00657016 0.1075569 0.6259312 -0.006124377 0.2598418 0.5974788 -0.06875646 0.1469295 0.5424855 0.05733537 0.167014 0.5325981 0.03590148 0.3856983 0.00404638 0.03897368 0.2161038 0.5082717 -0.04659003 0.3929479 0.00400722 -0.004115581 -0.0284965 0.461184 -0.006637752 0.1088435 0.6312484 -0.07235074 0.1504489 0.5430703 0.06089198 0.1716726 0.5326223 -0.05613708 0.1383535 0.5428183 0.04476422 0.1544256 0.5349062 -0.006374478 0.1068467 0.6095933</float_array>
           <technique_common>
-            <accessor source="#hair_m_ponytail_lusi_3-mesh-positions-array" count="11" stride="3">
+            <accessor source="#Cube_006-mesh-positions-array" count="18" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="hair_m_ponytail_lusi_3-mesh-normals">
-          <float_array id="hair_m_ponytail_lusi_3-mesh-normals-array" count="33">0.01568698 -0.9763785 -0.2154979 0.02258384 -0.04162752 0.998878 -0.9721894 -0.123206 -0.1991683 -0.01171922 0.8794643 0.4758208 -0.8913209 -0.3057745 -0.3347375 -0.003937005 0.9784849 -0.2062811 -0.8129931 -0.5592589 -0.1620858 -0.002472043 0.02935945 -0.999566 0.9486837 -0.1428595 -0.2821178 0.9210699 -0.2521802 -0.2967078 0.7602006 -0.6261607 -0.173257</float_array>
+        <source id="Cube_006-mesh-normals">
+          <float_array id="Cube_006-mesh-normals-array" count="51">0.01568686 -0.8483121 -0.5292642 0.02261471 -0.3728843 0.9276022 -0.9721874 -0.04959356 -0.2288936 -0.01062059 0.6414802 0.7670661 -0.9014253 -0.2186725 -0.3736507 -0.01553434 0.9601718 0.2789781 -0.7530558 -0.4351701 -0.4934918 -0.003418087 0.6653463 -0.746527 0.9486809 -0.04040706 -0.313643 0.9309778 -0.1781691 -0.3186474 0.7161332 -0.4760691 -0.5104032 0.01269608 0.1191176 0.9927991 -0.7666301 0.6420222 0.009277641 0.6582637 0.7491797 -0.07361173 -0.4813571 0.5414199 0.6893185 -0.08765143 0.9918469 -0.09250402 0.4571204 0.5990664 0.6573891</float_array>
           <technique_common>
-            <accessor source="#hair_m_ponytail_lusi_3-mesh-normals-array" count="11" stride="3">
+            <accessor source="#Cube_006-mesh-normals-array" count="17" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="hair_m_ponytail_lusi_3-mesh-map-0">
-          <float_array id="hair_m_ponytail_lusi_3-mesh-map-0-array" count="108">0.740133 0.03930985 0.605745 0.181029 0.814349 0.181029 0.814349 0.181029 0.605745 0.181029 0.605745 0.322747 0.605745 0.322747 0.814349 0.322747 0.814349 0.181029 0.814349 0.322747 0.605745 0.322747 0.605745 0.464466 0.605745 0.464466 0.814349 0.464466 0.814349 0.322747 0.605745 0.464466 0.735717 0.606184 0.814349 0.464466 0.725374 0.03581684 0.620639 0.177536 0.829244 0.177536 0.620639 0.177536 0.620639 0.319254 0.829244 0.319254 0.829244 0.319254 0.829244 0.177536 0.620639 0.177536 0.620639 0.319254 0.620639 0.460973 0.829244 0.460973 0.829244 0.460973 0.829244 0.319254 0.620639 0.319254 0.620639 0.460973 0.725385 0.602692 0.829244 0.460973 0.695765 0.03420794 0.621981 0.175926 0.830585 0.175926 0.830585 0.175926 0.621981 0.175926 0.830585 0.317645 0.621981 0.175926 0.621981 0.317645 0.830585 0.317645 0.830585 0.317645 0.621981 0.317645 0.830585 0.459363 0.70017 0.601082 0.830585 0.459363 0.621981 0.459363 0.621981 0.459363 0.830585 0.459363 0.621981 0.317645</float_array>
+        <source id="Cube_006-mesh-map-0">
+          <float_array id="Cube_006-mesh-map-0-array" count="162">0.8320245 0.2424579 0.7375671 0.3597939 0.8979266 0.3467667 0.8979266 0.3467667 0.7375671 0.3597939 0.7464171 0.4687364 0.7464171 0.4687364 0.9067769 0.4557092 0.8979266 0.3467667 0.9067769 0.4557092 0.7464171 0.4687364 0.7552674 0.5776798 0.7552674 0.5776798 0.9156271 0.5646528 0.9067769 0.4557092 0.7552674 0.5776798 0.8640306 0.6785057 0.9156271 0.5646528 0.8204607 0.2406945 0.7487983 0.3561785 0.9091588 0.3431513 0.7487983 0.3561785 0.7576485 0.465121 0.9180089 0.4520938 0.9180089 0.4520938 0.9091588 0.3431513 0.7487983 0.3561785 0.7576485 0.465121 0.7664987 0.5740646 0.9268592 0.5610373 0.9268592 0.5610373 0.9180089 0.4520938 0.7576485 0.465121 0.7664987 0.5740646 0.8558701 0.6764664 0.9268592 0.5610373 0.797599 0.2413067 0.7497293 0.3548571 0.910089 0.3418299 0.910089 0.3418299 0.7497293 0.3548571 0.9189394 0.4507732 0.7497293 0.3548571 0.7585796 0.4638004 0.9189394 0.4507732 0.9189394 0.4507732 0.7585796 0.4638004 0.9277895 0.559716 0.836386 0.6768036 0.9277895 0.559716 0.7674298 0.5727431 0.7674298 0.5727431 0.9277895 0.559716 0.7585796 0.4638004 0.834011 0.3870667 0.7698609 0.4667546 0.878768 0.4579073 0.8261575 0.3858692 0.7774885 0.4642993 0.8863962 0.4554519 0.8106312 0.3862849 0.7781208 0.4634018 0.8870281 0.4545545 0.7781208 0.4634018 0.8870281 0.4545545 0.7781208 0.4634018 0.7698609 0.4667546 0.878768 0.4579073 0.7698609 0.4667546 0.7774885 0.4642993 0.8863962 0.4554519 0.8863962 0.4554519 0.7781208 0.4634018 0.8870281 0.4545545 0.8870281 0.4545545 0.7698609 0.4667546 0.878768 0.4579073 0.878768 0.4579073 0.7774885 0.4642993 0.7774885 0.4642993 0.8863962 0.4554519</float_array>
           <technique_common>
-            <accessor source="#hair_m_ponytail_lusi_3-mesh-map-0-array" count="54" stride="2">
+            <accessor source="#Cube_006-mesh-map-0-array" count="81" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="hair_m_ponytail_lusi_3-mesh-vertices">
-          <input semantic="POSITION" source="#hair_m_ponytail_lusi_3-mesh-positions"/>
+        <vertices id="Cube_006-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_006-mesh-positions"/>
         </vertices>
-        <triangles count="18">
-          <input semantic="VERTEX" source="#hair_m_ponytail_lusi_3-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#hair_m_ponytail_lusi_3-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#hair_m_ponytail_lusi_3-mesh-map-0" offset="2" set="0"/>
-          <p>0 0 0 10 1 1 8 2 2 8 2 3 10 1 4 1 3 5 1 3 6 5 4 7 8 2 8 5 4 9 1 3 10 6 5 11 6 5 12 4 6 13 5 4 14 6 5 15 7 7 16 4 6 17 0 0 18 8 2 19 2 8 20 8 2 21 5 4 22 9 9 23 9 9 24 2 8 25 8 2 26 5 4 27 4 6 28 3 10 29 3 10 30 9 9 31 5 4 32 4 6 33 7 7 34 3 10 35 0 0 36 2 8 37 10 1 38 10 1 39 2 8 40 1 3 41 2 8 42 9 9 43 1 3 44 1 3 45 9 9 46 6 5 47 7 7 48 6 5 49 3 10 50 3 10 51 6 5 52 9 9 53</p>
+        <triangles material="Material_001-material" count="27">
+          <input semantic="VERTEX" source="#Cube_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_006-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_006-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 4 1 1 6 2 2 6 2 3 4 1 4 5 3 5 5 3 6 3 4 7 6 2 8 3 4 9 5 3 10 1 5 11 1 5 12 10 6 13 3 4 14 1 5 15 2 7 16 10 6 17 0 0 18 6 2 19 7 8 20 6 2 21 3 4 22 9 9 23 9 9 24 7 8 25 6 2 26 3 4 27 10 6 28 8 10 29 8 10 30 9 9 31 3 4 32 10 6 33 2 7 34 8 10 35 0 0 36 7 8 37 4 1 38 4 1 39 7 8 40 5 3 41 7 8 42 9 9 43 5 3 44 5 3 45 9 9 46 1 5 47 2 7 48 1 5 49 8 10 50 8 10 51 1 5 52 9 9 53 11 0 54 12 11 55 13 12 56 11 0 57 13 12 58 14 13 59 11 0 60 14 13 61 12 11 62 16 14 63 12 11 64 14 13 65 17 15 66 13 12 67 12 11 68 13 12 69 16 14 70 14 13 71 16 14 72 17 15 73 12 11 74 17 15 75 15 16 76 13 12 77 13 12 78 15 16 79 16 14 80</p>
         </triangles>
       </mesh>
     </geometry>
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="hair_m_ponytail_lusi_3" name="hair_m_ponytail_lusi_3" type="NODE">
-        <matrix sid="transform">0.0258427 0 0 0 0 0.0258427 0 0 0 0 0.0258427 0 0 0 0 1</matrix>
-        <instance_geometry url="#hair_m_ponytail_lusi_3-mesh" name="hair_m_ponytail_lusi_3"/>
+      <node id="head_maya_2" name="head_maya_2" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_006-mesh" name="head_maya_2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_001-material" target="#Material_001-material">
+                <bind_vertex_input semantic="Cube_006-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
       </node>
     </visual_scene>
   </library_visual_scenes>
