@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="mesh_1">
-      <animations/>
-      <mesh>props/new/verton_head_1.dae</mesh>
-      <props/>
+     <variant frequency="1" name="a">
+      <mesh>props/hair/veton_hair_1.dae</mesh>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="face1a">
-      <props>
-        <prop actor="props/units/hairs/veton_hair_1.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="props/head/verton_1.png" name="baseTex"/>
       </textures>
@@ -22,10 +17,7 @@
         <texture file="props/head/verton_2.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="face3a">
-      <props>
-        <prop actor="props/units/hairs/veton_hair_1.xml" attachpoint="root"/>
-      </props>
+        <variant frequency="1" name="face3a">
       <textures>
         <texture file="props/head/verton_3.png" name="baseTex"/>
       </textures>
