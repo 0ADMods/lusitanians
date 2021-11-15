@@ -12,11 +12,11 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_javelinist_b</SelectionGroupName>
-    <SpecificName>Iovanan</SpecificName>
+    <SpecificName>Iovanan Secias</SpecificName>
     <Icon>units/iber_infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/lusi/infantry_javelineer_a</Entity>
+    <Entity>units/lusi/veton/infantry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/lusitanians/veton/infantry_javelinist_b.xml</Actor>

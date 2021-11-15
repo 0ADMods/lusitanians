@@ -12,12 +12,12 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Scortamareva</SpecificName>
+    <SpecificName>Scortamareva Secias</SpecificName>
     <Icon>units/iber_infantry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/lusi/infantry_spearman_a</Entity>
+    <Entity>units/lusi/veton/infantry_spearman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/lusitanians/veton/infantry_spearman_b.xml</Actor>

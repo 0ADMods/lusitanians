@@ -5,17 +5,20 @@
     <variant frequency="50" name="Base1">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_verton.xml" attachpoint="head"/>
         <prop actor="props/units/shields/veton_scutum.xml" attachpoint="shield"/> 
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
-      <variant frequency="50" name="Base2">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+  </group>
+  <group>
+    <variant frequency="1" name="head_veton_1">
+      <props>
+        <prop actor="props/units/heads/new/head_verton.xml" attachpoint="head"/>
+      </props>
+    </variant>
+        <variant frequency="1" name="head_veton_2">
       <props>
         <prop actor="props/units/heads/new/head_verton_hair.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/veton_scutum.xml" attachpoint="shield"/> 
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>

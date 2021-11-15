@@ -3,13 +3,13 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/cavalry_javelineer_b</SelectionGroupName>
-    <SpecificName>Epones Aieste</SpecificName>
+    <SpecificName>Epones Secias</SpecificName>
     <Icon>units/iber_cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
-    <Entity>units/lusi/cavalry_javelineer_a</Entity>
+    <Entity>units/lusi/veton/cavalry_javelineer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/lusitanians/cavalry_javelinist_b_m.xml</Actor>
+    <Actor>units/lusitanians/veton/cavalry_javelinist_b_m.xml</Actor>
   </VisualActor>
 </Entity>
