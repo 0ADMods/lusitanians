@@ -2,13 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="mesh_1">
+    <variant frequency="75" name="mesh_1">
       <mesh>props/new/head_beard_longhair.dae</mesh>
     </variant>
-    <variant name="mesh_2">
+    <variant frequency="5" name="mesh_2">
       <mesh>props/new/head_longhair.dae</mesh>
     </variant>
-    <variant name="mesh_3">
+    <variant frequency="20" name="mesh_3">
       <mesh>props/new/head_beard_small.dae</mesh>
     </variant>
   </group>

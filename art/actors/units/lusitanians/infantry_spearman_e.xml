@@ -9,7 +9,7 @@
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sheath_falcata.xml" attachpoint="sheath_01_L"/>
-        <prop actor="props/units/capes/cape_long_gaul.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cape_long_lusi.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -25,13 +25,13 @@
       </props>
     </variant>
   </group>
-  <group>
+<!--   <group>
     <variant frequency="1" name="Greave-04">
       <props>
         <prop actor="props/units/armor/greave_04_bronze_l.xml" attachpoint="leg_L"/>
       </props>
     </variant>
-  </group>
+  </group> -->
   <group>
     <variant frequency="1" name="tunic-sleeveless-slinger-1a">
       <textures>
