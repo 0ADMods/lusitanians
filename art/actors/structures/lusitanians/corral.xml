@@ -6,6 +6,7 @@
       <mesh>structural/lusi_corral.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="structures/lusitanians/water_corral.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/lusi_struct.png" name="baseTex"/>

@@ -6,6 +6,7 @@
       <mesh>structural/lusi_stable_new.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="structures/lusitanians/water_stable_new.xml" attachpoint="root"/>
          <prop actor="props/structures/persians/stable_horse_a.xml" attachpoint="cav2"/>
         <prop actor="props/structures/persians/stable_horse_b.xml" attachpoint="cav1"/>
       </props>
