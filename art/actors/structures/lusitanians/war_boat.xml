@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="lusi fishing boat a">
+      <mesh>structural/lusi_balsa_a.dae</mesh>
+      <props>
+<!--         <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="" attachpoint="fish_a"/>
+        <prop actor="" attachpoint="fish_b"/>
+        <prop actor="" attachpoint="fish_c"/> -->
+      </props>
+      <textures>
+        <texture file="structural/lusi_balsa.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="lusi fishing boat b">
+      <mesh>structural/lusi_balsa_b.dae</mesh>
+      <props>
+<!--         <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
+        <prop actor="" attachpoint="fish_a"/>
+        <prop actor="" attachpoint="fish_b"/>
+        <prop actor="" attachpoint="fish_c"/> -->
+      </props>
+      <textures>
+        <texture file="structural/lusi_balsa.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="1" name="walk"/>
+    <variant frequency="1" name="run"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
