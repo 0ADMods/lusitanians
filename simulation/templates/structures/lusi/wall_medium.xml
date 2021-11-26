@@ -41,4 +41,7 @@
   <VisualActor>
     <Actor>structures/lusitanians/wall_medium.xml</Actor>
   </VisualActor>
+    <WallPiece>
+    <Length>24.6</Length>
+  </WallPiece>
 </Entity>

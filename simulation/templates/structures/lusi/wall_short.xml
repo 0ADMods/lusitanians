@@ -9,7 +9,7 @@
     <SpecificName>Zabal Horma</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="12" depth="7"/>
+    <Static width="12" depth="6"/>
   </Obstruction>
   <StatusBars>
     <HeightOffset>11</HeightOffset>
@@ -17,4 +17,7 @@
   <VisualActor>
     <Actor>structures/lusitanians/wall_short.xml</Actor>
   </VisualActor>
+    <WallPiece>
+    <Length>12.35</Length>
+  </WallPiece>
 </Entity>
