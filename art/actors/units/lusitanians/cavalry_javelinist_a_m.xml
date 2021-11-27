@@ -12,16 +12,14 @@
     </variant>
   </group>
   <group>
-    <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
-    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
-    <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
-    <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
-    <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
-    <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
-    <variant file="quadraped/horse/halflinger.xml" frequency="1" name="halflinger"/>
-    <variant file="quadraped/horse/lusitano_01.xml" frequency="1" name="lusitano-01"/>
-    <variant file="quadraped/horse/lusitano_02.xml" frequency="1" name="lusitano-02"/>
-    <variant file="quadraped/horse/brown_spotted_01.xml" frequency="1" name="Brown-Spotted-01"/>
+    <variant file="quadraped/horse/lusi_horse_1.xml" frequency="1" name="brown"/>
+    <variant file="quadraped/horse/lusi_horse_2.xml" frequency="1" name="beige"/>
+    <variant file="quadraped/horse/lusi_horse_3.xml" frequency="1" name="tan"/>
+    <variant file="quadraped/horse/lusi_horse_4.xml" frequency="1" name="cherrybay"/>
+    <variant file="quadraped/horse/lusi_horse_5.xml" frequency="1" name="white"/>
+    <variant file="quadraped/horse/lusi_horse_6.xml" frequency="1" name="gray"/>
+    <variant file="quadraped/horse/lusi_horse_7.xml" frequency="1" name="halflinger"/>
+    <variant file="quadraped/horse/lusi_horse_8.xml" frequency="1" name="lusitano-01"/>
   </group>
   <group>
     <variant file="quadraped/base_horse_javelin.xml" name="Javelinist-Horse" frequency="1"/>
@@ -33,5 +31,5 @@
       </props>
     </variant>
   </group>
-  <material>no_trans_parallax_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

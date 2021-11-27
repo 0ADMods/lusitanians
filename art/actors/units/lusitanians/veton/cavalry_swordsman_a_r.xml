@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+        <prop actor="props/units/shields/veton_buckler.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="head_veton_1">
+      <props>
+        <prop actor="props/units/heads/new/head_verton.xml" attachpoint="head"/>
+      </props>
+    </variant>
+        <variant frequency="1" name="head_veton_2">
+      <props>
+        <prop actor="props/units/heads/new/head_verton_hair.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="tunic-sleeveless-slinger-1a">
+      <textures>
+        <texture file="skeletal/units/verton_javellineer_a_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" frequency="1" name="Swordsman-Relax-Shield"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_iber.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

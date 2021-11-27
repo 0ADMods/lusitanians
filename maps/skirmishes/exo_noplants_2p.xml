@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>rain</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="0.116583"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0.00201172</FogFactor>
+			<FogThickness>0.399414</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.713726" g="0.121569" b="0.113725"/>
+				<Tint r="0.486275" g="0.0156863" b="0"/>
+				<Height>175.173</Height>
+				<Waviness>1.98242</Waviness>
+				<Murkiness>0.758789</Murkiness>
+				<WindAngle>-0.0920389</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="473.346" y="276.507" z="68.1887"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "exoplante_ noplants",
+  "PlayerData": [
+    {},
+    {}
+  ],
+  "Preview": "",
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="505.74256" z="448.04847"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63907"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="380.35645" z="436.98432"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44431"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="292.90397" z="551.0959"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44386"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="508.4162" z="813.75452"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18785"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="918.67554" z="905.89307"/>
+			<Orientation y="-1.36861"/>
+			<Actor seed="46365"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="616.45234" z="800.48255"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2174"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="555.45783" z="634.12525"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17503"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="110.3542" z="828.29841"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18753"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="224.31373" z="400.39142"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43166"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="617.8324" z="267.26789"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2768"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="586.50196" z="190.10734"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4440"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="534.31012" z="125.26844"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45385"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="286.37598" z="122.2787"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="9469"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="51.49625" z="376.01111"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62778"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="189.74762" z="865.56012"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36646"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="867.29249" z="798.53498"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19845"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="997.03016" z="497.31415"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38538"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="851.26722" z="168.38608"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47492"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="615.62897" z="46.07056"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60358"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="633.9156" z="311.03657"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50789"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="672.20124" z="495.051"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45477"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>actor|particle/rain_shower.xml</Template>
+			<Position x="538.6056" z="461.34205"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="519"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="449.44852" z="170.66352"/>
+			<Orientation y="2.05546"/>
+			<Actor seed="25628"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="588.61799" z="661.9126"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17358"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
