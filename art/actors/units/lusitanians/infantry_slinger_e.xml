@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/celt_helmet_berru_02.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/lusi_helmet_couro.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
       </props>
     </variant>

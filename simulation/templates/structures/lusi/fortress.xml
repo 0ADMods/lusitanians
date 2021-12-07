@@ -19,10 +19,6 @@
   <Obstruction>
     <Static width="27.0" depth="27.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/lusitanians/fortress.xml</Actor>
   </VisualActor>

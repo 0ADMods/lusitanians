@@ -6,7 +6,7 @@
     <SelectionGroupName>structures/lusi/castro</SelectionGroupName>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
-    <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry
       units/{civ}/champion_cavalry
@@ -14,9 +14,9 @@
       units/{civ}/champion_infantry_guerrilha
       units/{civ}/hero_apimano
       units/{civ}/hero_kaisaros
-      units/{civ}/hero_viriato   
+      units/{civ}/hero_viriato  
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/lusitanians/citania.xml</Actor>
   </VisualActor>

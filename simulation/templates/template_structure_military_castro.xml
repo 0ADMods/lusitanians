@@ -37,22 +37,19 @@
   <Obstruction>
     <Static width="17.0" depth="17.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman_a
-      units/{civ}/champion_infantry
-      units/{civ}/infantry_swordswoman
-    </Entities>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_barracks.xml</select>
       <constructed>interface/complete/building/complete_barracks.xml</constructed>
     </SoundGroups>
   </Sound>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_a
+      units/{civ}/champion_infantry
+      units/{civ}/infantry_swordswoman
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>32</Range>
   </Vision>

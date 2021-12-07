@@ -4,10 +4,6 @@
     <Civ>lusi</Civ>
     <SpecificName>Harotz</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/lusitanians/forge.xml</Actor>
   </VisualActor>

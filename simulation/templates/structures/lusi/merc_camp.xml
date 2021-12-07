@@ -28,18 +28,18 @@
   <Obstruction>
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <TerritoryDecay>
+    <DecayRate>1</DecayRate>
+  </TerritoryDecay>
+  <TerritoryInfluence disable=""/>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/veton/cavalry_swordsman_merc_b
       units/{civ}/veton/infantry_spearman_b
       units/{civ}/veton/infantry_javelineer_b
       units/{civ}/veton/cavalry_javelineer_b
     </Entities>
-  </ProductionQueue>
-  <TerritoryDecay>
-    <DecayRate>1</DecayRate>
-  </TerritoryDecay>
-  <TerritoryInfluence disable=""/>
+  </Trainer>
   <VisualActor>
     <Actor>structures/lusitanians/lusi_castro_veton.xml</Actor>
   </VisualActor>

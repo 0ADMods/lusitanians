@@ -10,11 +10,13 @@
     <variant frequency="50" name="3">
       <props>
         <prop actor="props/units/heads/new/head_lusi_fem_3.xml" attachpoint="head"/>
+                <prop actor="props/units/capes/cape_med_player.xml" attachpoint="cape"/>
       </props>
     </variant>
     <variant frequency="50" name="3">
       <props>
         <prop actor="props/units/heads/new/head_lusi_fem_2.xml" attachpoint="head"/>
+        <prop actor="props/units/capes/cape_med_player.xml" attachpoint="cape"/>
       </props>
     </variant>
   </group>
