@@ -44,7 +44,7 @@
     <Radius>38</Radius>
   </TerritoryInfluence>
   <VisualActor>
-    <Actor>structures/iberians/scout_tower.xml</Actor>
+    <Actor>structures/lusitanians/tower_stone.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

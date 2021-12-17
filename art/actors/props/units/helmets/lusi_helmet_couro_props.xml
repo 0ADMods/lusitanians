@@ -13,6 +13,13 @@
     </variant> 
   </group>
   <group>
+    <variant frequency="1" name="hair">
+      <props>
+        <prop actor="props/units/helmets/props/lusi_prop_hair.xml" attachpoint="root"/>
+      </props>
+    </variant> 
+  </group>
+  <group>
     <variant frequency="1" name="helmet1">
       <textures>
         <texture file="props/helmet/lusi_h_c_1.png" name="baseTex"/>
