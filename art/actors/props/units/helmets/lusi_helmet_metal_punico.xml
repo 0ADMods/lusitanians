@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="helmet">
+      <mesh>props/helmet/lusi_helmet_metal.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/props/lusi_helmet_protetor.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/lusi_prop_hair_punico.xml" attachpoint="root"/>
+      </props>
+    </variant> 
+  </group>
+  <group>
+   <variant frequency="1" name="helmet1">
+      <textures>
+          <texture file="props/helmet/lusi_h_metal_1.png" name="baseTex"/>
+          <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+          <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant> 
+     <variant frequency="1" name="helmet2">
+      <textures>
+          <texture file="props/helmet/lusi_h_metal_2.png" name="baseTex"/>
+          <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+          <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant> 
+    <variant frequency="1" name="helmet3">
+      <textures>
+          <texture file="props/helmet/lusi_h_metal_3.png" name="baseTex"/>
+          <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+          <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant> 
+    <variant frequency="1" name="helmet4">
+      <textures>
+          <texture file="props/helmet/lusi_h_metal_4.png" name="baseTex"/>
+          <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+          <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant> 
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

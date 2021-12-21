@@ -2,15 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="helmet hair1">
-      <mesh>props/helmet/props/hair_lusi_1.dae</mesh>
-    </variant> 
-<!--     <variant frequency="1" name="helmet hair2">
-      <mesh>props/helmet/props/hair_lusi_2.dae</mesh>
-    </variant>  -->
-<!--     <variant frequency="1" name="helmet hair3">
+    <variant frequency="1" name="helmet hair3">
       <mesh>props/helmet/props/hair_lusi_3.dae</mesh>
-    </variant> --> 
+    </variant> 
   </group>
   <group>
     <variant frequency="1">
