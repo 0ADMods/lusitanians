@@ -14,7 +14,7 @@
     <group>
     <variant frequency="1" name="Helmet_1">
       <props>
-        <prop actor="props/units/helmets/celt_helmet_montefortino_01.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/lusi_helmet_metal_bandoleiro.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

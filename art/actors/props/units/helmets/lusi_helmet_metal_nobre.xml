@@ -2,8 +2,12 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="helmet correntes">
-      <mesh>props/helmet/props/lusi_helmet_protetor.dae</mesh>
+    <variant frequency="1" name="helmet">
+      <mesh>props/helmet/lusi_helmet_metal.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/props/lusi_helmet_protetor.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/props/lusi_prop_nobre.xml" attachpoint="root"/>
+      </props>
     </variant> 
   </group>
   <group>
