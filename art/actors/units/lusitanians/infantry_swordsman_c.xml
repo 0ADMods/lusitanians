@@ -3,6 +3,7 @@
   <castshadow/>
   <group>
     <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
@@ -14,16 +15,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="armour-pectoral-1">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant frequency="1" name="Lusi-Armor-Chainmail-02-01">
       <textures>
-        <texture file="skeletal/units/lusi_nob_1_c.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_chainmail_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="armour-pectoral-2">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant frequency="1" name="Lusi-Armor-Chainmail-02-02">
       <textures>
-        <texture file="skeletal/units/lusi_nob_2_c.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_chainmail_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lusi-Armor-Chainmail-02-03">
+      <textures>
+        <texture file="skeletal/units/lusi_chainmail_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
