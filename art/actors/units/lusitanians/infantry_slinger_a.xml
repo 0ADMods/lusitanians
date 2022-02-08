@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
-    <group>
+  <group>
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_lusi_basic_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/lusi_helmet_couro.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Lusitanian-Cap-Leather-01">
+      <props>
+        <prop actor="props/units/helmets/lusi_cap_01.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

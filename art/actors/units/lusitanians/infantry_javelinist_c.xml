@@ -13,36 +13,31 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Celtic Berru Helmet-02">
+    <variant frequency="1" name="Iberian-Helmet-Montefortino-01">
       <props>
-        <prop actor="props/units/helmets/lusi_helmet_metal_emboscador.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Celtic Montefortino Helmet-01">
-      <props>
-        <prop actor="props/units/helmets/lusi_helmet_metal_emboscador.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/iber_helmet_montefortino_01.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-sleeveless-slinger-1a">
+    <variant frequency="1" name="Lusi-Armor-Linothorax-01-01">
       <textures>
-        <texture file="skeletal/units/lusi_jav_c_1.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_linothorax_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-sleeveless-slinger-1b">
+    <variant frequency="1" name="Lusi-Armor-Linothorax-01-02">
       <textures>
-        <texture file="skeletal/units/lusi_jav_c_2.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_linothorax_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="tunic-sleeveless-slinger-1c">
+    <variant frequency="1" name="Lusi-Armor-Linothorax-01-03">
       <textures>
-        <texture file="skeletal/units/lusi_jav_c_3.png" name="baseTex"/>
+        <texture file="skeletal/units/lusi_linothorax_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-   <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
+    <variant file="biped/base_skirmisher_fast.xml" frequency="1" name="Skirmisher-Shield-Fast"/>
     <variant file="biped/approach_ruins.xml"/>
     <variant file="biped/approach_praise.xml"/>
   </group>
