@@ -6,10 +6,21 @@
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/helmets/lusi_helmet_couro.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
         <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Lusitanian-Cap-Leather-01">
+      <props>
+        <prop actor="props/units/helmets/lusi_cap_01.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Lusitanian-Cap-Leather-03">
+      <props>
+        <prop actor="props/units/helmets/lusi_cap_03.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -31,7 +42,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_skirmisher_fast.xml" name="Skirmisher-Shield-Fast" frequency="1"/>
+    <variant file="biped/base_skirmisher_fast.xml" frequency="1" name="Skirmisher-Shield-Fast"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

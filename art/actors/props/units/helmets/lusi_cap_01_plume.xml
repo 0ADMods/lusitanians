@@ -7,6 +7,13 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Hair">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_romanized_long_hair.xml" attachpoint="hair"/>
+      </props>
+    </variant>
+  </group>
+  <group>
     <variant name="Lusi-Cap-Leather-01">
       <textures>
         <texture file="props/helmet/lusi_cap_01_leather_01.png" name="baseTex"/>

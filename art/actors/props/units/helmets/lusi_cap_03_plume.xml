@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1">
+      <mesh>props/helmet/lusi_cap_03.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Hair">
+      <props>
+        <prop actor="props/units/helmets/props/hele_thracian_romanized_long_hair.xml" attachpoint="hair"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="Lusi-Cap-Leather-01">
+      <textures>
+        <texture file="props/helmet/lusi_cap_03_leather_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Lusi-Cap-Leather-02">
+      <textures>
+        <texture file="props/helmet/lusi_cap_03_leather_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Lusi-Cap-Leather-03">
+      <textures>
+        <texture file="props/helmet/lusi_cap_03_leather_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

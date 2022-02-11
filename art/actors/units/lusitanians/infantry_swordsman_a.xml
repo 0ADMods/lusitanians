@@ -5,10 +5,21 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_lusi_basic_hair.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_lusi_basic.xml" attachpoint="head"/>
         <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
-        <prop actor="props/units/helmets/lusi_helmet_couro.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Lusitanian-Cap-Leather-01">
+      <props>
+        <prop actor="props/units/helmets/lusi_cap_01.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Lusitanian-Cap-Leather-03">
+      <props>
+        <prop actor="props/units/helmets/lusi_cap_03.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
