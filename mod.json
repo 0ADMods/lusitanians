@@ -4,5 +4,5 @@
 	"label": "0 A.D. lusitanos",
 	"url": "",
 	"description": "lusitanos.",
-    "dependencies": ["0ad=>0.0.26"]
+	"dependencies": ["0ad=0.0.26"]
 }
