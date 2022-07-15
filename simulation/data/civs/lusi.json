@@ -1,8 +1,5 @@
 {	"Code": "lusi",
 	"Culture": "lusi",
-	"Name": "Lusitans",
-	"Emblem": "session/portraits/emblems/emblem_lusitanians.png",
-	"History": "lusi wiki.",
 	"Music": [
 		{
 			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
@@ -108,18 +105,6 @@
 			"Template": "units/lusi/cavalry_javelineer_b"
 	    }
 	 ],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/battle_line",
-		"special/formations/skirmish",
-		"special/formations/wedge"
-	],
 	"AINames": [
 		"Cauceno",
 		"Césaro",
