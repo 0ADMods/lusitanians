@@ -3,20 +3,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <GenericName>Lusitans</GenericName>
-    <History>the.</History>
+    <History>The Lusitanians were an Indo-European speaking people living in the west of the Iberian Peninsula prior to its conquest by the Roman Republic and the subsequent incorporation of the territory into the Roman province of Lusitania.</History>
     <Icon>emblems/emblem_lusitanians.png</Icon>
   </Identity>
 </Entity>
-<!-- <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="special/player/player">
-    <EntityLimits>
-    <Limits>
-      <Lusitaniswordswomen>0</Lusitaniswordswomen>
-    </Limits>
-    <LimitChangers>
-      <Lusitaniswordswomen>
-        <CivilCentre>10</CivilCentre>
-      </Lusitaniswordswomen>
-    </LimitChangers>
-   </EntityLimits>
-</Entity> -->
