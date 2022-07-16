@@ -10,6 +10,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/iberians/workshop.xml</Actor>
+    <Actor>structures/lusitanians/workshop.xml</Actor>
   </VisualActor>
 </Entity>

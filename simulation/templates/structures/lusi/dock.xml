@@ -35,7 +35,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/lusitanians/dock.xml</Actor>
+    <Actor>structures/lusitanians/dock_new.xml</Actor>
     <FoundationActor>structures/fndn_dock_iber.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -18,6 +18,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/lusitanians/citania.xml</Actor>
+    <Actor>structures/lusitanians/castro_lusi.xml</Actor>
   </VisualActor>
 </Entity>

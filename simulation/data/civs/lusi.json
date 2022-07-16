@@ -113,7 +113,12 @@
 	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_melee_b": "units/lusi/infantry_swordsman_b",
 		"skirmish/structures/default_house_5": "structures/{civ}/house",
-		"skirmish/units/default_cavalry": "units/lusi/cavalry_javelineer_b"
+		"skirmish/units/default_cavalry": "units/lusi/cavalry_javelineer_b",
+		"skirmish/structures/iber_wall_short": "structures/lusi/wall_short",
+		"skirmish/structures/iber_wall_medium": "structures/lusi/wall_medium",
+		"skirmish/structures/iber_wall_long": "structures/lusi/wall_long",
+		"skirmish/structures/iber_wall_gate": "structures/lusi/wall_gate",
+		"skirmish/structures/iber_wall_tower": "structures/lusi/wall_tower"
 	},
 	"SelectableInGameSetup": true
 }
