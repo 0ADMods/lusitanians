@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="forge">
-      <mesh>structural/lusi_sant.dae</mesh>
+      <mesh>structural/lusi_new_temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
        <prop actor="structures/lusitanians/temple_water.xml" attachpoint="root"/>
@@ -16,10 +16,10 @@
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire2"/>
       </props>
       <textures>
-        <texture file="structural/lusi_sant_struct.png" name="baseTex"/>
-        <texture file="structural/lusi_sant_struct_spec.png" name="specTex"/>
-        <texture file="structural/lusi_sant_struct_norm.png" name="normTex"/>
-        <texture file="structural/ao/lusi_sant_ao.png" name="aoTex"/>
+        <texture file="structural/lusi_struct_new.png" name="baseTex"/>
+        <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
+        <texture file="structural/lusi_struct_new_norm.png" name="normTex"/>
+        <texture file="structural/ao/lusi_new_temple_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

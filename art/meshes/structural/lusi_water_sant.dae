@@ -3,24 +3,24 @@
   <asset>
     <contributor>
       <author>Blender User</author>
-      <authoring_tool>Blender 2.82.7</authoring_tool>
+      <authoring_tool>Blender 2.91.2 commit date:2021-01-19, commit time:16:15, hash:5be9ef417703</authoring_tool>
     </contributor>
-    <created>2021-09-17T12:56:31</created>
-    <modified>2021-09-17T12:56:31</modified>
+    <created>2022-11-06T21:36:13</created>
+    <modified>2022-11-06T21:36:13</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="textura_santuario_lusitano-effect">
+    <effect id="textura_nova-effect">
       <profile_COMMON>
-        <newparam sid="lusi_sant_struct_png-surface">
+        <newparam sid="lusi_struct_new_png-surface">
           <surface type="2D">
-            <init_from>lusi_sant_struct_png</init_from>
+            <init_from>lusi_struct_new_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="lusi_sant_struct_png-sampler">
+        <newparam sid="lusi_struct_new_png-sampler">
           <sampler2D>
-            <source>lusi_sant_struct_png-surface</source>
+            <source>lusi_struct_new_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,10 +29,10 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="lusi_sant_struct_png-sampler" texcoord="Plano_171-mesh-map-0"/>
+              <texture texture="lusi_struct_new_png-sampler" texcoord="Plano_460-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
-              <float sid="ior">1</float>
+              <float sid="ior">1.45</float>
             </index_of_refraction>
           </lambert>
         </technique>
@@ -40,22 +40,22 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="lusi_sant_struct_png" name="lusi_sant_struct_png">
-      <init_from>/home/welton/.local/share/0ad/mods/Lusitanians_civ/art/textures/skins/structural/lusi_sant_struct.png</init_from>
+    <image id="lusi_struct_new_png" name="lusi_struct_new_png">
+      <init_from>/home/milena/snap/0ad/current/.local/share/0ad/mods/lusitanians/art/textures/skins/structural/lusi_struct_new.png</init_from>
     </image>
   </library_images>
   <library_materials>
-    <material id="textura_santuario_lusitano-material" name="textura_santuario_lusitano">
-      <instance_effect url="#textura_santuario_lusitano-effect"/>
+    <material id="textura_nova-material" name="textura nova">
+      <instance_effect url="#textura_nova-effect"/>
     </material>
   </library_materials>
   <library_geometries>
     <geometry id="Plano_001-mesh" name="Plano.001">
       <mesh>
         <source id="Plano_001-mesh-positions">
-          <float_array id="Plano_001-mesh-positions-array" count="54">-13.5192 5.702973 2.798786 -12.76955 8.850776 2.798786 -15.83619 6.254762 2.798786 -15.08654 9.402565 2.798786 -12.82404 7.208034 2.798786 -15.60049 7.737683 2.798786 -14.90152 5.724258 2.798786 -13.92805 9.12667 2.798786 -14.1427 7.518348 2.798786 10.91192 -3.000121 2.824655 7.790046 -2.148947 2.824655 10.2854 -5.298033 2.824655 7.163527 -4.446862 2.824655 9.43016 -2.256593 2.824655 8.810894 -5.014446 2.824655 10.84589 -4.381035 2.824655 7.476788 -3.297904 2.824655 9.077313 -3.564519 2.824655</float_array>
+          <float_array id="Plano_001-mesh-positions-array" count="81">1.299828 2.266253 0.7235183 1.568994 2.544889 0.7235183 1.474472 1.835755 0.7235183 1.790552 2.046001 0.7235183 2.114679 2.302131 0.7235183 2.078365 1.693995 0.7235183 1.800007 1.509913 0.7235183 2.356724 1.878078 0.7235183 1.856546 2.634418 0.7235183 -2.346331 1.187631 0.7235183 -2.462362 1.557259 0.7235183 -1.884726 1.13519 0.7235183 -1.918261 1.513326 0.7235183 -1.988247 1.920465 0.7235183 -1.471487 1.59781 0.7235183 -1.442896 1.265316 0.7235183 -1.500076 1.930305 0.7235183 -2.403511 1.852619 0.7235183 -1.844425 -2.523022 0.6187433 -1.917316 -2.781005 0.6187433 -2.091818 -2.317729 0.6187433 -2.2157 -2.549376 0.6187433 -2.329468 -2.811629 0.6187433 -2.506397 -2.428983 0.6187433 -2.396948 -2.225636 0.6187433 -2.615845 -2.632329 0.6187433 -2.06332 -2.929716 0.6187433</float_array>
           <technique_common>
-            <accessor source="#Plano_001-mesh-positions-array" count="18" stride="3">
+            <accessor source="#Plano_001-mesh-positions-array" count="27" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
@@ -63,9 +63,9 @@
           </technique_common>
         </source>
         <source id="Plano_001-mesh-normals">
-          <float_array id="Plano_001-mesh-normals-array" count="21">0 0 1 -1.63814e-7 0 1 2.18419e-7 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <float_array id="Plano_001-mesh-normals-array" count="30">0 0 1 1.71456e-7 0 1 -1.82509e-7 0 1 0 0 1 0 0 1 -1.86786e-7 0 1 1.97411e-7 0 1 -1.7903e-7 0 1 1.5603e-7 0 1 2.06133e-7 0 1</float_array>
           <technique_common>
-            <accessor source="#Plano_001-mesh-normals-array" count="7" stride="3">
+            <accessor source="#Plano_001-mesh-normals-array" count="10" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
@@ -73,18 +73,18 @@
           </technique_common>
         </source>
         <source id="Plano_001-mesh-map-0">
-          <float_array id="Plano_001-mesh-map-0-array" count="96">0.4454789 0.1325461 0.5821378 0.248543 0.4454789 0.248543 0.3088202 0.1325461 0.4454789 0.248543 0.3088202 0.248543 0.3088202 0.01654911 0.4454789 0.1325461 0.3088202 0.1325461 0.5821378 0.01654911 0.4454789 0.1325461 0.4454789 0.01654911 0.4245094 0.1472442 0.5363636 0.2590985 0.4245094 0.2590985 0.4245094 0.1472442 0.3126552 0.2590985 0.3126552 0.1472442 0.3126552 0.0353899 0.4245094 0.1472442 0.3126552 0.1472442 0.5363636 0.0353899 0.4245094 0.1472442 0.4245094 0.0353899 0.4454789 0.1325461 0.5821378 0.1325461 0.5821378 0.248543 0.3088202 0.1325461 0.4454789 0.1325461 0.4454789 0.248543 0.3088202 0.01654911 0.4454789 0.01654911 0.4454789 0.1325461 0.5821378 0.01654911 0.5821378 0.1325461 0.4454789 0.1325461 0.4245094 0.1472442 0.5363636 0.1472442 0.5363636 0.2590985 0.4245094 0.1472442 0.4245094 0.2590985 0.3126552 0.2590985 0.3126552 0.0353899 0.4245094 0.0353899 0.4245094 0.1472442 0.5363636 0.0353899 0.5363636 0.1472442 0.4245094 0.1472442</float_array>
+          <float_array id="Plano_001-mesh-map-0-array" count="144">0.325939 0.01184403 0.3364647 0.03952777 0.325939 0.03952777 0.325939 0.01184403 0.3364647 0.01184403 0.3364647 0.03952777 0.3469904 0.01184403 0.3364647 0.03952777 0.3364647 0.01184403 0.3364647 0.03952777 0.3364647 0.06721138 0.325939 0.06721138 0.3364647 0.03952777 0.3469904 0.06721138 0.3364647 0.06721138 0.3364647 0.03952777 0.325939 0.06721138 0.325939 0.03952777 0.3364647 0.03952777 0.3469904 0.03952777 0.3469904 0.06721138 0.3469904 0.01184403 0.3469904 0.03952777 0.3364647 0.03952777 0.325939 0.01184403 0.3364647 0.03952777 0.325939 0.03952777 0.325939 0.01184403 0.3364647 0.01184403 0.3364647 0.03952777 0.3469904 0.01184403 0.3364647 0.03952777 0.3364647 0.01184403 0.3364647 0.03952777 0.3364647 0.06721138 0.325939 0.06721138 0.3364647 0.03952777 0.3469904 0.06721138 0.3364647 0.06721138 0.3364647 0.03952777 0.325939 0.06721138 0.325939 0.03952777 0.3364647 0.03952777 0.3469904 0.03952777 0.3469904 0.06721138 0.3469904 0.01184403 0.3469904 0.03952777 0.3364647 0.03952777 0.325939 0.01184403 0.3364647 0.03952777 0.325939 0.03952777 0.325939 0.01184403 0.3364647 0.01184403 0.3364647 0.03952777 0.3469904 0.01184403 0.3364647 0.03952777 0.3364647 0.01184403 0.3364647 0.03952777 0.3364647 0.06721138 0.325939 0.06721138 0.3364647 0.03952777 0.3469904 0.06721138 0.3364647 0.06721138 0.3364647 0.03952777 0.325939 0.06721138 0.325939 0.03952777 0.3364647 0.03952777 0.3469904 0.03952777 0.3469904 0.06721138 0.3469904 0.01184403 0.3469904 0.03952777 0.3364647 0.03952777</float_array>
           <technique_common>
-            <accessor source="#Plano_001-mesh-map-0-array" count="48" stride="2">
+            <accessor source="#Plano_001-mesh-map-0-array" count="72" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
         <source id="Plano_001-mesh-map-1">
-          <float_array id="Plano_001-mesh-map-1-array" count="96">0.3793199 0.6527182 0.3716101 0.6618039 0.3708186 0.6520183 0.3773106 0.6419059 0.3708186 0.6520183 0.3713664 0.6435917 0.3851355 0.6435917 0.3793199 0.6527182 0.3773106 0.6419059 0.3853791 0.6618039 0.3793199 0.6527182 0.3871515 0.6527386 0.1981753 0.6484331 0.1904045 0.6577582 0.1899123 0.6477147 0.1981753 0.6484331 0.1906861 0.6390662 0.1965258 0.6373358 0.2041017 0.6390661 0.1981753 0.6484331 0.1965258 0.6373358 0.2038201 0.6577582 0.1981753 0.6484331 0.2058053 0.648454 0.3793199 0.6527182 0.3784946 0.6618039 0.3716101 0.6618039 0.3773106 0.6419059 0.3793199 0.6527182 0.3708186 0.6520183 0.3851355 0.6435917 0.3871515 0.6527386 0.3793199 0.6527182 0.3853791 0.6618039 0.3784946 0.6618039 0.3793199 0.6527182 0.1981753 0.6484331 0.1971123 0.6577582 0.1904045 0.6577582 0.1981753 0.6484331 0.1899123 0.6477147 0.1906861 0.6390662 0.2041017 0.6390661 0.2058053 0.648454 0.1981753 0.6484331 0.2038201 0.6577582 0.1971123 0.6577582 0.1981753 0.6484331</float_array>
+          <float_array id="Plano_001-mesh-map-1-array" count="144">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
           <technique_common>
-            <accessor source="#Plano_001-mesh-map-1-array" count="48" stride="2">
+            <accessor source="#Plano_001-mesh-map-1-array" count="72" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
@@ -93,26 +93,26 @@
         <vertices id="Plano_001-mesh-vertices">
           <input semantic="POSITION" source="#Plano_001-mesh-positions"/>
         </vertices>
-        <triangles material="textura_santuario_lusitano-material" count="16">
+        <triangles material="textura_nova-material" count="24">
           <input semantic="VERTEX" source="#Plano_001-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Plano_001-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Plano_001-mesh-map-0" offset="2" set="0"/>
           <input semantic="TEXCOORD" source="#Plano_001-mesh-map-1" offset="2" set="1"/>
-          <p>8 0 0 3 0 1 5 0 2 6 0 3 5 0 4 2 0 5 0 0 6 8 0 7 6 0 8 1 1 9 8 1 10 4 1 11 17 0 12 12 0 13 14 0 14 17 0 15 11 0 16 15 0 17 9 0 18 17 0 19 15 0 20 10 2 21 17 2 22 13 2 23 8 3 24 7 3 25 3 3 26 6 4 27 8 4 28 5 4 29 0 5 30 4 5 31 8 5 32 1 0 33 7 0 34 8 0 35 17 0 36 16 0 37 12 0 38 17 6 39 14 6 40 11 6 41 9 0 42 13 0 43 17 0 44 10 0 45 16 0 46 17 0 47</p>
+          <p>0 0 0 3 0 1 1 0 2 0 0 3 2 0 4 3 0 5 6 0 6 3 0 7 2 0 8 3 1 9 4 1 10 8 1 11 3 0 12 7 0 13 4 0 14 3 2 15 8 2 16 1 2 17 3 0 18 5 0 19 7 0 20 6 0 21 5 0 22 3 0 23 9 3 24 12 3 25 10 3 26 9 0 27 11 0 28 12 0 29 15 0 30 12 0 31 11 0 32 12 4 33 13 4 34 17 4 35 12 5 36 16 5 37 13 5 38 12 0 39 17 0 40 10 0 41 12 6 42 14 6 43 16 6 44 15 0 45 14 0 46 12 0 47 18 0 48 21 0 49 19 0 50 18 0 51 20 0 52 21 0 53 24 0 54 21 0 55 20 0 56 21 7 57 22 7 58 26 7 59 21 8 60 25 8 61 22 8 62 21 0 63 26 0 64 19 0 65 21 0 66 23 0 67 25 0 68 24 9 69 23 9 70 21 9 71</p>
         </triangles>
       </mesh>
     </geometry>
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="sant_001" name="sant.001" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Plano_001-mesh" name="sant.001">
+      <node id="lusi_new_temple_001" name="lusi_new_temple.001" type="NODE">
+        <matrix sid="transform">4.933953 0 0 0 0 4.933953 0 0 0 0 4.933953 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plano_001-mesh" name="lusi_new_temple.001">
           <bind_material>
             <technique_common>
-              <instance_material symbol="textura_santuario_lusitano-material" target="#textura_santuario_lusitano-material">
-                <bind_vertex_input semantic="Plano_171-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
-                <bind_vertex_input semantic="Plano_171-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              <instance_material symbol="textura_nova-material" target="#textura_nova-material">
+                <bind_vertex_input semantic="Plano_460-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Plano_460-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
               </instance_material>
             </technique_common>
           </bind_material>
