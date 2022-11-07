@@ -4,9 +4,6 @@
   <group>
     <variant frequency="1" name="cc">
       <mesh>structural/lusi_farmstead_new_new.dae</mesh>
-      <props>
-        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>
