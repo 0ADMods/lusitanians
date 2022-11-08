@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="wonder">
-      <mesh>structural/lusi_water_wonder.dae</mesh>
+      <mesh>structural/lusi_wonder_new_water.dae</mesh>
       <textures>
         <texture file="props/gardens_turf.png" name="baseTex"/>
       </textures>
