@@ -3,15 +3,15 @@
   <asset>
     <contributor>
       <author>Blender User</author>
-      <authoring_tool>Blender 2.82.7</authoring_tool>
+      <authoring_tool>Blender 2.91.2 commit date:2021-01-19, commit time:16:15, hash:5be9ef417703</authoring_tool>
     </contributor>
-    <created>2021-11-18T11:21:26</created>
-    <modified>2021-11-18T11:21:26</modified>
+    <created>2022-12-24T08:14:49</created>
+    <modified>2022-12-24T08:14:49</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="textura_lusitana_establo-effect">
+    <effect id="textura_nova_004-effect">
       <profile_COMMON>
         <technique sid="common">
           <lambert>
@@ -19,7 +19,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1</float>
@@ -31,74 +31,74 @@
   </library_effects>
   <library_images/>
   <library_materials>
-    <material id="textura_lusitana_establo-material" name="textura_lusitana_establo">
-      <instance_effect url="#textura_lusitana_establo-effect"/>
+    <material id="textura_nova_004-material" name="textura_nova_004">
+      <instance_effect url="#textura_nova_004-effect"/>
     </material>
   </library_materials>
   <library_geometries>
-    <geometry id="Cubo_005-mesh" name="Cubo.005">
+    <geometry id="Cubo_001-mesh" name="Cubo.001">
       <mesh>
-        <source id="Cubo_005-mesh-positions">
-          <float_array id="Cubo_005-mesh-positions-array" count="12">-0.8983273 4.110136 0.6650893 4.955875 4.109715 0.6650896 -0.8982213 5.586011 0.6650893 4.955981 5.585591 0.6650891</float_array>
+        <source id="Cubo_001-mesh-positions">
+          <float_array id="Cubo_001-mesh-positions-array" count="54">-8.109116 -3.713549 1.362529 -9.4665 -3.713912 1.36253 -8.11056 1.670639 1.362529 -9.467944 1.670269 1.362529 -8.10984 -1.021461 1.36253 -9.467223 -1.021821 1.36253 6.27406 -3.71355 1.36253 4.916678 -3.713919 1.36253 6.272617 1.670629 1.36253 4.915235 1.670268 1.36253 6.273339 -1.021461 1.36253 4.915957 -1.021821 1.36253 -2.964993 -10.75978 1.362531 -2.959032 -9.402414 1.362531 2.419147 -10.78338 1.362531 2.425089 -9.426025 1.362531 -0.2729331 -10.77158 1.362531 -0.2669722 -9.414223 1.362531</float_array>
           <technique_common>
-            <accessor source="#Cubo_005-mesh-positions-array" count="4" stride="3">
+            <accessor source="#Cubo_001-mesh-positions-array" count="18" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="Cubo_005-mesh-normals">
-          <float_array id="Cubo_005-mesh-normals-array" count="6">0 0 1 0 3.23085e-7 1</float_array>
+        <source id="Cubo_001-mesh-normals">
+          <float_array id="Cubo_001-mesh-normals-array" count="30">7.82942e-7 -3.54062e-7 1 0 3.54251e-7 1 0 0 1 1.3049e-7 0 1 0 0 1 0 0 1 0 0 1 0 3.54249e-7 1 0 0 1 0 0 1</float_array>
           <technique_common>
-            <accessor source="#Cubo_005-mesh-normals-array" count="2" stride="3">
+            <accessor source="#Cubo_001-mesh-normals-array" count="10" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="Cubo_005-mesh-map-0">
-          <float_array id="Cubo_005-mesh-map-0-array" count="12">0.2337121 0.03791898 0.1895657 0.09168195 0.1895657 0.03791898 0.2337121 0.03791898 0.2337121 0.09168195 0.1895657 0.09168195</float_array>
+        <source id="Cubo_001-mesh-map-0">
+          <float_array id="Cubo_001-mesh-map-0-array" count="72">0.5606083 0.5958248 0.5606083 0.5461521 0.5800197 0.5461521 0.581251 0.5958248 0.5591495 0.5958248 0.5591495 0.5467775 0.3454642 0.06725347 0.3275417 0.06725347 0.3275417 0.01088428 0.3261948 0.06725347 0.3261948 0.01150947 0.3466009 0.01150947 0.608205 0.776223 0.608205 0.7143046 0.6278918 0.7143046 0.6067254 0.776223 0.6067254 0.7149915 0.6291405 0.7149915 0.5606083 0.5958248 0.5800197 0.5461521 0.5800197 0.5958248 0.581251 0.5958248 0.5591495 0.5467775 0.5812509 0.5467775 0.3454642 0.06725347 0.3275417 0.01088428 0.3454642 0.01088428 0.3261948 0.06725347 0.3466009 0.01150947 0.346601 0.06725347 0.608205 0.776223 0.6278918 0.7143046 0.6278918 0.776223 0.6067254 0.776223 0.6291405 0.7149915 0.6291406 0.776223</float_array>
           <technique_common>
-            <accessor source="#Cubo_005-mesh-map-0-array" count="6" stride="2">
+            <accessor source="#Cubo_001-mesh-map-0-array" count="36" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="Cubo_005-mesh-map-1">
-          <float_array id="Cubo_005-mesh-map-1-array" count="12">0.4382635 0.666693 0.4610376 0.7571282 0.4382635 0.7571256 0.4382635 0.666693 0.4610376 0.6666957 0.4610376 0.7571282</float_array>
+        <source id="Cubo_001-mesh-map-1">
+          <float_array id="Cubo_001-mesh-map-1-array" count="72">0.7539389 0.5696762 0.7313153 0.5696744 0.7313153 0.6145152 0.7539389 0.6593578 0.7539389 0.614517 0.7313153 0.6145152 0.7539389 0.7075334 0.7539389 0.6626924 0.7313154 0.6626908 0.7539389 0.7075334 0.7313153 0.7075315 0.7313154 0.7523723 0.3916433 0.5943232 0.4142557 0.5943217 0.4142557 0.549459 0.3916435 0.5494606 0.4142557 0.549459 0.4142557 0.5045961 0.7539389 0.5696762 0.7313153 0.6145152 0.7539389 0.614517 0.7539389 0.6593578 0.7313153 0.6145152 0.7313153 0.6593561 0.7539389 0.7075334 0.7313154 0.6626908 0.7313153 0.7075315 0.7539389 0.7075334 0.7313154 0.7523723 0.7539389 0.7523741 0.3916433 0.5943232 0.4142557 0.549459 0.3916435 0.5494606 0.3916435 0.5494606 0.4142557 0.5045961 0.3916434 0.5045979</float_array>
           <technique_common>
-            <accessor source="#Cubo_005-mesh-map-1-array" count="6" stride="2">
+            <accessor source="#Cubo_001-mesh-map-1-array" count="36" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="Cubo_005-mesh-vertices">
-          <input semantic="POSITION" source="#Cubo_005-mesh-positions"/>
+        <vertices id="Cubo_001-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_001-mesh-positions"/>
         </vertices>
-        <triangles material="textura_lusitana_establo-material" count="2">
-          <input semantic="VERTEX" source="#Cubo_005-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#Cubo_005-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#Cubo_005-mesh-map-0" offset="2" set="0"/>
-          <input semantic="TEXCOORD" source="#Cubo_005-mesh-map-1" offset="2" set="1"/>
-          <p>1 0 0 2 0 1 0 0 2 1 1 3 3 1 4 2 1 5</p>
+        <triangles material="textura_nova_004-material" count="12">
+          <input semantic="VERTEX" source="#Cubo_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_001-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Cubo_001-mesh-map-1" offset="2" set="1"/>
+          <p>1 0 0 0 0 1 4 0 2 3 1 3 5 1 4 4 1 5 11 2 6 7 2 7 6 2 8 11 3 9 10 3 10 8 3 11 13 4 12 12 4 13 16 4 14 17 5 15 16 5 16 14 5 17 1 6 18 4 6 19 5 6 20 3 7 21 4 7 22 2 7 23 11 8 24 6 8 25 10 8 26 11 9 27 8 9 28 9 9 29 13 8 30 16 8 31 17 8 32 17 8 33 14 8 34 15 8 35</p>
         </triangles>
       </mesh>
     </geometry>
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="estabulo_lusi_water" name="estabulo_lusi_water" type="NODE">
-        <matrix sid="transform">-4.37114e-8 1 0 0 -1 -4.37114e-8 0 0 0 0 1 1.17417 0 0 0 1</matrix>
-        <instance_geometry url="#Cubo_005-mesh" name="estabulo_lusi_water">
+      <node id="new_stable_lusi_001" name="new_stable_lusi.001" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_001-mesh" name="new_stable_lusi.001">
           <bind_material>
             <technique_common>
-              <instance_material symbol="textura_lusitana_establo-material" target="#textura_lusitana_establo-material">
-                <bind_vertex_input semantic="Cubo_307-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
-                <bind_vertex_input semantic="Cubo_307-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+              <instance_material symbol="textura_nova_004-material" target="#textura_nova_004-material">
+                <bind_vertex_input semantic="Cubo_14621-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="Cubo_14621-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
               </instance_material>
             </technique_common>
           </bind_material>
