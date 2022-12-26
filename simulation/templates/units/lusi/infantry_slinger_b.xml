@@ -14,7 +14,7 @@
     <SelectionGroupName>units/lusi/infantry_slinger_b</SelectionGroupName>
     <SpecificName>Trokalobutiam</SpecificName>
     <Icon>units/iber_infantry_slinger.png</Icon>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements><Techs>phase_village</Techs></Requirements>
   </Identity>
   <Promotion>
     <Entity>units/lusi/infantry_slinger_a</Entity>

@@ -4,7 +4,7 @@
     <Civ>lusi</Civ>
     <SpecificName>Brigasecias</SpecificName>
     <SelectionGroupName>structures/lusi/castro</SelectionGroupName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements><Techs>phase_city</Techs></Requirements>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

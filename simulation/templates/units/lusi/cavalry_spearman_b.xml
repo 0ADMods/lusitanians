@@ -5,7 +5,7 @@
     <SelectionGroupName>units/lusi/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Epones Pretre</SpecificName>
     <Icon>units/iber_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements><Techs>phase_town</Techs></Requirements>
   </Identity>
   <Promotion>
     <Entity>units/lusi/cavalry_spearman_a</Entity>

@@ -30,7 +30,7 @@
      <SwitchToSword>
       <Entity>units/lusi/infantry_swordswoman</Entity>
       <Tooltip>Switch weapon sword (melee).</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Requirements><Techs>phase_town</Techs></Requirements>
       <Cost>
         <metal>5</metal>
       </Cost>
