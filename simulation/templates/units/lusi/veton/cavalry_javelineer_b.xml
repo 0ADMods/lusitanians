@@ -5,7 +5,7 @@
     <SelectionGroupName>units/lusi/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Veton Cavalry</GenericName>
     <SpecificName>Epones Secias</SpecificName>
-    <Icon>units/iber_cavalry_javelinist.png</Icon>
+    <Icon>units/iber/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/lusi/veton/cavalry_javelineer_a</Entity>

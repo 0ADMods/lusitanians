@@ -7,7 +7,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Viriato</SpecificName>
-    <Icon>units/iber_hero_viriato.png</Icon>
+    <Icon>units/iber/hero_viriato.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lusitanians/hero_cavalry_spearman_viriato_h.xml</Actor>

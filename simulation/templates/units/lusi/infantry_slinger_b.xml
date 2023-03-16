@@ -13,7 +13,7 @@
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_slinger_b</SelectionGroupName>
     <SpecificName>Trokalobutiam</SpecificName>
-    <Icon>units/iber_infantry_slinger.png</Icon>
+    <Icon>units/iber/infantry_slinger.png</Icon>
     <Requirements><Techs>phase_village</Techs></Requirements>
   </Identity>
   <Promotion>

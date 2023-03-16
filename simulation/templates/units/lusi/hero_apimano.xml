@@ -6,7 +6,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Apimano</SpecificName>
-    <Icon>units/iber_hero_indibil.png</Icon>
+    <Icon>units/iber/hero_indibil.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lusitanians/hero_cavalry_spearman_punico_h.xml</Actor>

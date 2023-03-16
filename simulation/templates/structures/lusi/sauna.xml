@@ -27,7 +27,7 @@
     <SpecificName>Bormano</SpecificName>
     <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Town Sauna</VisibleClasses>
-    <Requirements><Techs>phase_town</Techs></Requirements>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
     <Icon>structures/lusi_sauna.png</Icon>
   </Identity>
   <Loot>

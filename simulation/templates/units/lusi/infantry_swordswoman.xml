@@ -25,7 +25,7 @@
      <SwitchToSword>
       <Entity>units/lusi/support_female_citizen</Entity>
       <Tooltip>Switch back to female citizens</Tooltip>
-      <Requirements><Techs>phase_town</Techs></Requirements>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
       <Cost>
         <food>10</food>
       </Cost>

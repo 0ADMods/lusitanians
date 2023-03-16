@@ -13,7 +13,7 @@
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_javelinist_b</SelectionGroupName>
     <SpecificName>Iovanan</SpecificName>
-    <Icon>units/iber_infantry_javelinist.png</Icon>
+    <Icon>units/iber/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/lusi/infantry_javelineer_a</Entity>

@@ -24,13 +24,13 @@
     <Civ>lusi</Civ>
     <SpecificName>Nurim</SpecificName>
     <GenericName>lusitanian Woman</GenericName>
-    <Icon>units/iber_support_female_citizen.png</Icon>
+    <Icon>units/iber/support_female_citizen.png</Icon>
   </Identity>
     <Upgrade>
      <SwitchToSword>
       <Entity>units/lusi/infantry_swordswoman</Entity>
       <Tooltip>Switch weapon sword (melee).</Tooltip>
-      <Requirements><Techs>phase_town</Techs></Requirements>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
       <Cost>
         <metal>5</metal>
       </Cost>

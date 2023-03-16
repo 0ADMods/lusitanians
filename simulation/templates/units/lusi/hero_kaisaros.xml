@@ -7,7 +7,7 @@
   <Identity>
     <Civ>lusi</Civ>
     <SpecificName>Kaikainos</SpecificName>
-    <Icon>units/iber_hero_caros.png</Icon>
+    <Icon>units/iber/hero_caros.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/lusitanians/hero_cavalry_spearman_kaikanos_h.xml</Actor>

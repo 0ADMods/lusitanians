@@ -8,7 +8,7 @@
     <Civ>lusi</Civ>
     <GenericName>Ionian Trade Ship</GenericName>
     <SpecificName>Seḥer</SpecificName>
-    <Icon>units/pers_ship_merchant.png</Icon>
+    <Icon>units/pers/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/merchant.xml</Actor>
